@@ -1,0 +1,12 @@
+NUM_1	s ah t uh
+NUM_2	d uw ah
+NUM_3	t ih g ah
+NUM_4	ah m p ah t
+NUM_5	l ih m ah
+NUM_6	ah n ah m
+NUM_7	t uh j uh h
+NUM_8	l ah p ah n
+NUM_9	s eh m b ih l ah n
+NUM_10	s eh p uh l uh h
+SILSP	sil
+
