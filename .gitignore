@@ -1,0 +1,5 @@
+*.tmp
+*$*
+~*
+scripts_energy/tmp
+wavs
