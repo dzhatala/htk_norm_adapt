@@ -1,0 +1,722 @@
+baum_viterbi_init_cyg.sh
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HInit -T 1 -C configtrain.txt -T 11 -m 1 -M hinitoutput initial_0_D_A -S train.lst
+Initialising  HMM initial_0_D_A . . . 
+ States   :   2  3  4 (width)
+ Mixes  s1:   1  1  1 ( 39  )
+ Num Using:   0  0  0
+ Parm Kind:  MFCC_D_A_0
+ Number of owners = 1
+ SegLab   :  NONE
+ maxIter  :  20
+ epsilon  :  0.000100
+ minSeg   :  1
+ Updating :  Means Variances MixWeights/DProbs TransProbs
+
+ - system is PLAIN
+ 1479 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_07_14_28_2019.mfc
+ 577 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_09_30_51_2019.mfc
+ 719 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_32_57_2019.mfc
+ 608 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_11_2019.mfc
+ 597 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_23_2019.mfc
+ 668 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_41_2019.mfc
+ 1037 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_04_2019.mfc
+ 648 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_21_2019.mfc
+ 828 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_37_2019.mfc
+ 897 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_55_2019.mfc
+ 817 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_35_12_2019.mfc
+ 708 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_08_00_00_2019.mfc
+ 648 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_10_13_49_2019.mfc
+ 948 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_11_18_16_2019.mfc
+ 937 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_12_03_24_2019.mfc
+ 828 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_19_29_31_2019.mfc
+ 888 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_10_19_38_2019.mfc
+ 457 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_11_13_06_2019.mfc
+ 417 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_14_40_15_2019.mfc
+ 488 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_12_2019.mfc
+ 468 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_22_2019.mfc
+ 417 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_31_2019.mfc
+ 408 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_40_2019.mfc
+ 739 observations loaded from ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Thu_Jan_31_22_48_45_2019.mfc
+24 Observation Sequences Loaded
+Starting Estimation Process
+ Uniform Segmentation
+Sequence Matrix
+ state  2:  5747
+ state  3:  5742
+ state  4:  5737
+ state 2  stream 1
+Flat Cluster Set: 1 nodes
+1. size=5747 cost=1.000
+  mean
+      -4.29   -11.75     5.59    -3.01   -10.86     9.43    -7.81    -2.16     4.51    -6.66    -0.79    -1.69    40.95     0.07    -0.02     0.03    -0.01    -0.02     0.03    -0.03 ...
+  diagC
+      72.46    26.20    36.14    25.94    28.95    31.47    32.14    23.41    25.33    32.10    25.04    23.47    71.52     0.74     0.81     1.02     0.97     1.31     1.48     1.59 ...
+ state 3  stream 1
+Flat Cluster Set: 1 nodes
+1. size=5742 cost=1.000
+  mean
+       1.88   -11.09     5.10    -6.07   -11.57     8.57   -10.73    -0.74     4.02    -7.29     1.31    -3.02    46.20     0.02    -0.00    -0.01    -0.01    -0.01     0.01    -0.00 ...
+  diagC
+      90.96    33.56    46.88    45.80    33.76    24.16    45.77    36.24    32.85    38.65    38.04    22.77    92.97     1.06     1.02     1.29     1.40     1.29     1.50     1.96 ...
+ state 4  stream 1
+Flat Cluster Set: 1 nodes
+1. size=5737 cost=1.000
+  mean
+      -0.98   -11.57     5.27    -4.31   -11.07     8.98    -9.66    -1.99     3.81    -6.90     1.01    -2.86    43.63    -0.05     0.01     0.01     0.03     0.01    -0.01     0.02 ...
+  diagC
+      65.58    24.07    35.34    30.39    28.47    19.88    31.42    28.14    26.56    29.32    28.42    20.91    64.54     0.70     0.80     0.99     1.12     1.18     1.27     1.52 ...
+Iteration 1: Average LogP =-50087.83984
+Iteration 2: Average LogP =-48296.32812  Change =  1791.51172
+Iteration 3: Average LogP =-48153.44141  Change =   142.88672
+Iteration 4: Average LogP =-48140.92578  Change =    12.51562
+Iteration 5: Average LogP =-48139.37109  Change =     1.55469
+Iteration 6: Average LogP =-48139.33984  Change =     0.03125
+Iteration 7: Average LogP =-48139.34375  Change =    -0.00391
+Iteration 8: Average LogP =-48139.33984  Change =     0.00391
+Iteration 9: Average LogP =-48139.33984  Change =     0.00000
+Estimation converged at iteration 10
+Output written to directory hinitoutput
+initialized in hinitoutput/initial_0_D_A
+ubuntu listing phonems from ../../../small_vocabulary_/datas/digit_rec_x240_v8 
+ENTER 
+creating hmm #N from  initial_0_D_A 
+creating hmm ah from  initial_0_D_A 
+creating hmm b from  initial_0_D_A 
+creating hmm d from  initial_0_D_A 
+creating hmm eh from  initial_0_D_A 
+creating hmm g from  initial_0_D_A 
+creating hmm h from  initial_0_D_A 
+creating hmm i from  initial_0_D_A 
+creating hmm ih from  initial_0_D_A 
+creating hmm j from  initial_0_D_A 
+creating hmm k from  initial_0_D_A 
+creating hmm l from  initial_0_D_A 
+creating hmm m from  initial_0_D_A 
+creating hmm n from  initial_0_D_A 
+creating hmm ng from  initial_0_D_A 
+creating hmm oh from  initial_0_D_A 
+creating hmm p from  initial_0_D_A 
+creating hmm s from  initial_0_D_A 
+creating hmm sil from  initial_0_D_A 
+creating hmm t from  initial_0_D_A 
+creating hmm uh from  initial_0_D_A 
+creating hmm uw from  initial_0_D_A 
+creating hmms in hmm1 ...
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest -T 7 -L ../../../small_vocabulary_/datas/digit_rec_x240_v8 -C configtrain.txt -t 50.0 150.0 1000.0 -S train.lst -H hmm0/hmmdefs -M hmm1 phonems.lst
+HERest  ML Updating: Transitions Means Variances 
+
+ System is PLAIN
+22 Logical/22 Physical Models Loaded, VecSize=39
+1 MMF input files
+Pruning-On[50.0 150.0 1000.0]
+ Processing Data: rep_buf_Fri_Feb_01_07_14_28_2019.mfc; Label rep_buf_Fri_Feb_01_07_14_28_2019.lab
+ Utterance prob per frame = -6.021509e+01
+ Processing Data: rep_buf_Fri_Feb_01_09_30_51_2019.mfc; Label rep_buf_Fri_Feb_01_09_30_51_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.313766e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_32_57_2019.mfc; Label rep_buf_Fri_Feb_01_11_32_57_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.504044e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_11_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_11_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.782932e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_23_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_23_2019.lab
+ Utterance prob per frame = -6.882878e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_41_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_41_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.693437e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_04_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_04_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.019768e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_21_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_21_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.679443e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_37_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_37_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.230797e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_55_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_55_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.614244e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_35_12_2019.mfc; Label rep_buf_Fri_Feb_01_19_35_12_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.575679e+01
+ Processing Data: rep_buf_Sat_Feb_02_08_00_00_2019.mfc; Label rep_buf_Sat_Feb_02_08_00_00_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.747008e+01
+ Processing Data: rep_buf_Sat_Feb_02_10_13_49_2019.mfc; Label rep_buf_Sat_Feb_02_10_13_49_2019.lab
+ Utterance prob per frame = -5.680933e+01
+ Processing Data: rep_buf_Sat_Feb_02_11_18_16_2019.mfc; Label rep_buf_Sat_Feb_02_11_18_16_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -5.956491e+01
+ Processing Data: rep_buf_Sat_Feb_02_12_03_24_2019.mfc; Label rep_buf_Sat_Feb_02_12_03_24_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.547626e+01
+ Processing Data: rep_buf_Sat_Feb_02_19_29_31_2019.mfc; Label rep_buf_Sat_Feb_02_19_29_31_2019.lab
+ Utterance prob per frame = -5.667583e+01
+ Processing Data: rep_buf_Sun_Feb_03_10_19_38_2019.mfc; Label rep_buf_Sun_Feb_03_10_19_38_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -7.284207e+01
+ Processing Data: rep_buf_Sun_Feb_03_11_13_06_2019.mfc; Label rep_buf_Sun_Feb_03_11_13_06_2019.lab
+ Utterance prob per frame = -7.206890e+01
+ Processing Data: rep_buf_Sun_Feb_03_14_40_15_2019.mfc; Label rep_buf_Sun_Feb_03_14_40_15_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.746434e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_12_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_12_2019.lab
+ Utterance prob per frame = -6.099016e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_22_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_22_2019.lab
+ Utterance prob per frame = -6.787821e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_31_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_31_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.858462e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_40_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_40_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.855496e+01
+ Processing Data: rep_buf_Thu_Jan_31_22_48_45_2019.mfc; Label rep_buf_Thu_Jan_31_22_48_45_2019.lab
+ Utterance prob per frame = -6.683247e+01
+Starting Model Update
+Model b[1] to be updated with 4 examples
+Model d[2] to be updated with 21 examples
+Model g[3] to be updated with 8 examples
+Model h[4] to be updated with 6 examples
+Model i[5] copied: only 2 examples
+Model j[6] to be updated with 7 examples
+Model k[7] to be updated with 7 examples
+Model l[8] to be updated with 18 examples
+Model m[9] to be updated with 25 examples
+Model n[10] to be updated with 16 examples
+Model p[11] to be updated with 16 examples
+Model s[12] to be updated with 29 examples
+Model t[13] to be updated with 42 examples
+Model #N[14] to be updated with 10 examples
+Model ah[15] to be updated with 100 examples
+Model eh[16] to be updated with 4 examples
+Model ih[17] to be updated with 17 examples
+Model ng[18] to be updated with 7 examples
+Model oh[19] to be updated with 14 examples
+Model uh[20] to be updated with 32 examples
+Model uw[21] to be updated with 21 examples
+Model sil[22] to be updated with 99 examples
+Saving hmm's to dir hmm1
+Reestimation complete - average log prob per frame = -6.456617e+01
+     - total frames seen          = 1.722600e+04
+[ENTER!]
+creating hmms in hmm2 ...
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest -T 1 -L ../../../small_vocabulary_/datas/digit_rec_x240_v8 -C configtrain.txt -t 50.0 150.0 1000.0 -S train.lst -H hmm1/hmmdefs -M hmm2 phonems.lst
+HERest  ML Updating: Transitions Means Variances 
+
+ System is PLAIN
+22 Logical/22 Physical Models Loaded, VecSize=39
+1 MMF input files
+Pruning-On[50.0 150.0 1000.0]
+ Processing Data: rep_buf_Fri_Feb_01_07_14_28_2019.mfc; Label rep_buf_Fri_Feb_01_07_14_28_2019.lab
+ Utterance prob per frame = -5.923167e+01
+ Processing Data: rep_buf_Fri_Feb_01_09_30_51_2019.mfc; Label rep_buf_Fri_Feb_01_09_30_51_2019.lab
+ Utterance prob per frame = -6.175499e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_32_57_2019.mfc; Label rep_buf_Fri_Feb_01_11_32_57_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.244049e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_11_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_11_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.621766e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_23_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_23_2019.lab
+ Utterance prob per frame = -6.714127e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_41_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_41_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.429276e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_04_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_04_2019.lab
+ Utterance prob per frame = -5.819797e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_21_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_21_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.481842e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_37_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_37_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.064761e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_55_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_55_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.388511e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_35_12_2019.mfc; Label rep_buf_Fri_Feb_01_19_35_12_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.376555e+01
+ Processing Data: rep_buf_Sat_Feb_02_08_00_00_2019.mfc; Label rep_buf_Sat_Feb_02_08_00_00_2019.lab
+ Utterance prob per frame = -6.550223e+01
+ Processing Data: rep_buf_Sat_Feb_02_10_13_49_2019.mfc; Label rep_buf_Sat_Feb_02_10_13_49_2019.lab
+ Utterance prob per frame = -5.438468e+01
+ Processing Data: rep_buf_Sat_Feb_02_11_18_16_2019.mfc; Label rep_buf_Sat_Feb_02_11_18_16_2019.lab
+ Utterance prob per frame = -5.731075e+01
+ Processing Data: rep_buf_Sat_Feb_02_12_03_24_2019.mfc; Label rep_buf_Sat_Feb_02_12_03_24_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.324775e+01
+ Processing Data: rep_buf_Sat_Feb_02_19_29_31_2019.mfc; Label rep_buf_Sat_Feb_02_19_29_31_2019.lab
+ Utterance prob per frame = -5.527513e+01
+ Processing Data: rep_buf_Sun_Feb_03_10_19_38_2019.mfc; Label rep_buf_Sun_Feb_03_10_19_38_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -7.024554e+01
+ Processing Data: rep_buf_Sun_Feb_03_11_13_06_2019.mfc; Label rep_buf_Sun_Feb_03_11_13_06_2019.lab
+ Utterance prob per frame = -6.678884e+01
+ Processing Data: rep_buf_Sun_Feb_03_14_40_15_2019.mfc; Label rep_buf_Sun_Feb_03_14_40_15_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.517424e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_12_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_12_2019.lab
+ Utterance prob per frame = -5.987072e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_22_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_22_2019.lab
+ Utterance prob per frame = -6.508632e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_31_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_31_2019.lab
+ Utterance prob per frame = -6.747284e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_40_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_40_2019.lab
+ Utterance prob per frame = -6.803413e+01
+ Processing Data: rep_buf_Thu_Jan_31_22_48_45_2019.mfc; Label rep_buf_Thu_Jan_31_22_48_45_2019.lab
+ Utterance prob per frame = -6.339980e+01
+ WARNING [-2331]  UpdateModels: i[5] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+Saving hmm's to dir hmm2
+Reestimation complete - average log prob per frame = -6.251445e+01
+     - total frames seen          = 1.722600e+04
+creating hmms in hmm3 ...
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest -T 1 -L ../../../small_vocabulary_/datas/digit_rec_x240_v8 -C configtrain.txt -t 50.0 150.0 1000.0 -S train.lst -H hmm2/hmmdefs -M hmm3 phonems.lst
+HERest  ML Updating: Transitions Means Variances 
+
+ System is PLAIN
+22 Logical/22 Physical Models Loaded, VecSize=39
+1 MMF input files
+Pruning-On[50.0 150.0 1000.0]
+ Processing Data: rep_buf_Fri_Feb_01_07_14_28_2019.mfc; Label rep_buf_Fri_Feb_01_07_14_28_2019.lab
+ Utterance prob per frame = -5.848055e+01
+ Processing Data: rep_buf_Fri_Feb_01_09_30_51_2019.mfc; Label rep_buf_Fri_Feb_01_09_30_51_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.084908e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_32_57_2019.mfc; Label rep_buf_Fri_Feb_01_11_32_57_2019.lab
+ Utterance prob per frame = -6.219782e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_11_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_11_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.540170e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_23_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_23_2019.lab
+ Utterance prob per frame = -6.575031e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_41_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_41_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.383616e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_04_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_04_2019.lab
+ Utterance prob per frame = -5.760294e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_21_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_21_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.405048e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_37_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_37_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -5.994557e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_55_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_55_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.356239e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_35_12_2019.mfc; Label rep_buf_Fri_Feb_01_19_35_12_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.377661e+01
+ Processing Data: rep_buf_Sat_Feb_02_08_00_00_2019.mfc; Label rep_buf_Sat_Feb_02_08_00_00_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.527813e+01
+ Processing Data: rep_buf_Sat_Feb_02_10_13_49_2019.mfc; Label rep_buf_Sat_Feb_02_10_13_49_2019.lab
+ Utterance prob per frame = -5.368056e+01
+ Processing Data: rep_buf_Sat_Feb_02_11_18_16_2019.mfc; Label rep_buf_Sat_Feb_02_11_18_16_2019.lab
+ Utterance prob per frame = -5.654202e+01
+ Processing Data: rep_buf_Sat_Feb_02_12_03_24_2019.mfc; Label rep_buf_Sat_Feb_02_12_03_24_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.241088e+01
+ Processing Data: rep_buf_Sat_Feb_02_19_29_31_2019.mfc; Label rep_buf_Sat_Feb_02_19_29_31_2019.lab
+ Utterance prob per frame = -5.476226e+01
+ Processing Data: rep_buf_Sun_Feb_03_10_19_38_2019.mfc; Label rep_buf_Sun_Feb_03_10_19_38_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -7.008108e+01
+ Processing Data: rep_buf_Sun_Feb_03_11_13_06_2019.mfc; Label rep_buf_Sun_Feb_03_11_13_06_2019.lab
+ Utterance prob per frame = -6.688190e+01
+ Processing Data: rep_buf_Sun_Feb_03_14_40_15_2019.mfc; Label rep_buf_Sun_Feb_03_14_40_15_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.400364e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_12_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_12_2019.lab
+ Utterance prob per frame = -5.979456e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_22_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_22_2019.lab
+ Utterance prob per frame = -6.455303e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_31_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_31_2019.lab
+ Utterance prob per frame = -6.691778e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_40_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_40_2019.lab
+ Utterance prob per frame = -6.758400e+01
+ Processing Data: rep_buf_Thu_Jan_31_22_48_45_2019.mfc; Label rep_buf_Thu_Jan_31_22_48_45_2019.lab
+ Utterance prob per frame = -6.149782e+01
+ WARNING [-2331]  UpdateModels: i[5] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+Saving hmm's to dir hmm3
+Reestimation complete - average log prob per frame = -6.189518e+01
+     - total frames seen          = 1.722600e+04
+Please fix sp.state2 using sil.state3 on hmm4/hmmdefs <ENTER>! 
+Creating monophones1.tmp from phones.lst 
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HHEd -T 1 -H hmm4/hmmdefs -M hmm5 sil_mix.hed monophones1
+HHEd
+ 23/23 Models Loaded [5 states max, 1 mixes max]
+
+AT 2 4 0.200 {}
+ Adding transitions to transP
+ AT: 1 transP matrices adjusted
+
+AT 4 2 0.200 {}
+ Adding transitions to transP
+ AT: 1 transP matrices adjusted
+
+AT 1 3 0.300 {}
+ Adding transitions to transP
+ AT: 1 transP matrices adjusted
+
+TI silst {}
+ Tie items
+
+MU 3 {}
+ Mixup to 3 components per stream
+ MU: Number of mixes increased from 66 to 198
+
+Saving new HMM files ...
+Edit Complete
+creating hmms in hmm6 ...
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest -T 1 -L ../../../small_vocabulary_/datas/digit_rec_x240_v8 -C configtrain.txt -t 50.0 150.0 1000.0 -S train.lst -H hmm5/hmmdefs -M hmm6 monophones1
+HERest  ML Updating: Transitions Means Variances MixWeights 
+
+ System is SHARED
+23 Logical/23 Physical Models Loaded, VecSize=39
+1 MMF input files
+Pruning-On[50.0 150.0 1000.0]
+ Processing Data: rep_buf_Fri_Feb_01_07_14_28_2019.mfc; Label rep_buf_Fri_Feb_01_07_14_28_2019.lab
+ Utterance prob per frame = -6.025418e+01
+ Processing Data: rep_buf_Fri_Feb_01_09_30_51_2019.mfc; Label rep_buf_Fri_Feb_01_09_30_51_2019.lab
+ Utterance prob per frame = -6.092674e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_32_57_2019.mfc; Label rep_buf_Fri_Feb_01_11_32_57_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.229335e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_11_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_11_2019.lab
+ Utterance prob per frame = -6.589512e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_23_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_23_2019.lab
+ Utterance prob per frame = -7.035039e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_41_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_41_2019.lab
+ Utterance prob per frame = -6.426339e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_04_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_04_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -5.785196e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_21_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_21_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.453202e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_37_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_37_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.052636e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_55_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_55_2019.lab
+ Utterance prob per frame = -6.447802e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_35_12_2019.mfc; Label rep_buf_Fri_Feb_01_19_35_12_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.408708e+01
+ Processing Data: rep_buf_Sat_Feb_02_08_00_00_2019.mfc; Label rep_buf_Sat_Feb_02_08_00_00_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.533817e+01
+ Processing Data: rep_buf_Sat_Feb_02_10_13_49_2019.mfc; Label rep_buf_Sat_Feb_02_10_13_49_2019.lab
+ Utterance prob per frame = -5.414108e+01
+ Processing Data: rep_buf_Sat_Feb_02_11_18_16_2019.mfc; Label rep_buf_Sat_Feb_02_11_18_16_2019.lab
+ Utterance prob per frame = -5.934869e+01
+ Processing Data: rep_buf_Sat_Feb_02_12_03_24_2019.mfc; Label rep_buf_Sat_Feb_02_12_03_24_2019.lab
+ Utterance prob per frame = -6.304845e+01
+ Processing Data: rep_buf_Sat_Feb_02_19_29_31_2019.mfc; Label rep_buf_Sat_Feb_02_19_29_31_2019.lab
+ Utterance prob per frame = -5.549746e+01
+ Processing Data: rep_buf_Sun_Feb_03_10_19_38_2019.mfc; Label rep_buf_Sun_Feb_03_10_19_38_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -7.056579e+01
+ Processing Data: rep_buf_Sun_Feb_03_11_13_06_2019.mfc; Label rep_buf_Sun_Feb_03_11_13_06_2019.lab
+ Utterance prob per frame = -6.730450e+01
+ Processing Data: rep_buf_Sun_Feb_03_14_40_15_2019.mfc; Label rep_buf_Sun_Feb_03_14_40_15_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.428086e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_12_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_12_2019.lab
+ Utterance prob per frame = -6.268497e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_22_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_22_2019.lab
+ Utterance prob per frame = -6.359494e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_31_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_31_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.697304e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_40_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_40_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.732515e+01
+ Processing Data: rep_buf_Thu_Jan_31_22_48_45_2019.mfc; Label rep_buf_Thu_Jan_31_22_48_45_2019.lab
+ Utterance prob per frame = -6.153998e+01
+ WARNING [-2331]  UpdateModels: i[5] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: sp[20] copied: only 0 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+Saving hmm's to dir hmm6
+Reestimation complete - average log prob per frame = -6.271093e+01
+     - total frames seen          = 1.722600e+04
+creating hmms in hmm7 ...
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest -T 1 -L ../../../small_vocabulary_/datas/digit_rec_x240_v8 -C configtrain.txt -t 50.0 150.0 1000.0 -S train.lst -H hmm6/hmmdefs -M hmm7 monophones1
+HERest  ML Updating: Transitions Means Variances MixWeights 
+
+ System is SHARED
+23 Logical/23 Physical Models Loaded, VecSize=39
+1 MMF input files
+Pruning-On[50.0 150.0 1000.0]
+ Processing Data: rep_buf_Fri_Feb_01_07_14_28_2019.mfc; Label rep_buf_Fri_Feb_01_07_14_28_2019.lab
+ Utterance prob per frame = -5.835425e+01
+ Processing Data: rep_buf_Fri_Feb_01_09_30_51_2019.mfc; Label rep_buf_Fri_Feb_01_09_30_51_2019.lab
+ Utterance prob per frame = -6.014112e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_32_57_2019.mfc; Label rep_buf_Fri_Feb_01_11_32_57_2019.lab
+ Utterance prob per frame = -6.097519e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_11_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_11_2019.lab
+ Utterance prob per frame = -6.473332e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_23_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_23_2019.lab
+ Utterance prob per frame = -6.635058e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_41_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_41_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.299619e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_04_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_04_2019.lab
+ Utterance prob per frame = -5.711789e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_21_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_21_2019.lab
+ Utterance prob per frame = -6.331061e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_37_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_37_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -5.961067e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_55_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_55_2019.lab
+ Utterance prob per frame = -6.334597e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_35_12_2019.mfc; Label rep_buf_Fri_Feb_01_19_35_12_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.306824e+01
+ Processing Data: rep_buf_Sat_Feb_02_08_00_00_2019.mfc; Label rep_buf_Sat_Feb_02_08_00_00_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.398749e+01
+ Processing Data: rep_buf_Sat_Feb_02_10_13_49_2019.mfc; Label rep_buf_Sat_Feb_02_10_13_49_2019.lab
+ Utterance prob per frame = -5.396515e+01
+ Processing Data: rep_buf_Sat_Feb_02_11_18_16_2019.mfc; Label rep_buf_Sat_Feb_02_11_18_16_2019.lab
+ Utterance prob per frame = -5.704849e+01
+ Processing Data: rep_buf_Sat_Feb_02_12_03_24_2019.mfc; Label rep_buf_Sat_Feb_02_12_03_24_2019.lab
+ Utterance prob per frame = -6.193823e+01
+ Processing Data: rep_buf_Sat_Feb_02_19_29_31_2019.mfc; Label rep_buf_Sat_Feb_02_19_29_31_2019.lab
+ Utterance prob per frame = -5.448952e+01
+ Processing Data: rep_buf_Sun_Feb_03_10_19_38_2019.mfc; Label rep_buf_Sun_Feb_03_10_19_38_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.940725e+01
+ Processing Data: rep_buf_Sun_Feb_03_11_13_06_2019.mfc; Label rep_buf_Sun_Feb_03_11_13_06_2019.lab
+ Utterance prob per frame = -6.661314e+01
+ Processing Data: rep_buf_Sun_Feb_03_14_40_15_2019.mfc; Label rep_buf_Sun_Feb_03_14_40_15_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.283233e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_12_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_12_2019.lab
+ Utterance prob per frame = -5.960751e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_22_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_22_2019.lab
+ Utterance prob per frame = -6.233172e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_31_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_31_2019.lab
+ Utterance prob per frame = -6.608763e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_40_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_40_2019.lab
+Retrying Beta pass at 200.0
+ Utterance prob per frame = -6.429277e+01
+ Processing Data: rep_buf_Thu_Jan_31_22_48_45_2019.mfc; Label rep_buf_Thu_Jan_31_22_48_45_2019.lab
+ Utterance prob per frame = -6.002726e+01
+ WARNING [-2331]  UpdateModels: i[5] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: sp[20] copied: only 0 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+Total 18 floored variance elements in 1 different mixes
+Saving hmm's to dir hmm7
+Reestimation complete - average log prob per frame = -6.130594e+01
+     - total frames seen          = 1.722600e+04
+datadir=../../../small_vocabulary_/datas/digit_rec_x240_v8
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HLEd -T 3 -l ../wavs/trilab -n triphones1 mktri.led ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_07_14_28_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_09_30_51_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_32_57_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_11_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_23_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_41_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_04_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_21_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_37_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_55_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_35_12_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_08_00_00_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_10_13_49_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_11_18_16_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_12_03_24_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_19_29_31_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_10_19_38_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_11_13_06_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_14_40_15_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_12_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_22_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_31_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_40_2019.lab ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Thu_Jan_31_22_48_45_2019.lab
+No Contexts Defined
+Word Bounds Defined:
+  sp  sil  #N
+No non inter-word boundaries defined
+HLEd: script mktri.led
+ 1. Triphonise [ ]
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_07_14_28_2019.lab
+   0 adds; 0 deletes; 0 replaces; 16 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_09_30_51_2019.lab
+   0 adds; 0 deletes; 0 replaces; 16 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_32_57_2019.lab
+   0 adds; 0 deletes; 0 replaces; 16 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_11_2019.lab
+   0 adds; 0 deletes; 0 replaces; 12 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_23_2019.lab
+   0 adds; 0 deletes; 0 replaces; 12 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_11_33_41_2019.lab
+   0 adds; 0 deletes; 0 replaces; 20 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_04_2019.lab
+   0 adds; 0 deletes; 0 replaces; 20 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_21_2019.lab
+   0 adds; 0 deletes; 0 replaces; 16 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_37_2019.lab
+   0 adds; 0 deletes; 0 replaces; 16 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_34_55_2019.lab
+   0 adds; 0 deletes; 0 replaces; 19 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Fri_Feb_01_19_35_12_2019.lab
+   0 adds; 0 deletes; 0 replaces; 20 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_08_00_00_2019.lab
+   0 adds; 0 deletes; 0 replaces; 32 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_10_13_49_2019.lab
+   0 adds; 0 deletes; 0 replaces; 4 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_11_18_16_2019.lab
+   0 adds; 0 deletes; 0 replaces; 15 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_12_03_24_2019.lab
+   0 adds; 0 deletes; 0 replaces; 25 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sat_Feb_02_19_29_31_2019.lab
+   0 adds; 0 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_10_19_38_2019.lab
+   0 adds; 0 deletes; 0 replaces; 51 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_11_13_06_2019.lab
+   0 adds; 0 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_14_40_15_2019.lab
+   0 adds; 0 deletes; 0 replaces; 14 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_12_2019.lab
+   0 adds; 0 deletes; 0 replaces; 14 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_22_2019.lab
+   0 adds; 0 deletes; 0 replaces; 14 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_31_2019.lab
+   0 adds; 0 deletes; 0 replaces; 14 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Sun_Feb_03_15_02_40_2019.lab
+   0 adds; 0 deletes; 0 replaces; 14 changes; 0 merges
+Editing file: ../../../small_vocabulary_/datas/digit_rec_x240_v8/rep_buf_Thu_Jan_31_22_48_45_2019.lab
+   0 adds; 0 deletes; 0 replaces; 16 changes; 0 merges
+triphones1 triphones_srtd created
+using datadir=../../../small_vocabulary_/datas/digit_rec_x240_v8
+Press key !
+mktri
+hmm9
+hmm10...
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HHEd -H hmm9/hmmdefs -M hmm10 mktri.hed monophones1
+hmm11...
+cp train.lst mfc_triph.scp
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest -T 1 -C configtrain.txt -L ../wavs/trilab -s stats -S mfc_triph.scp -H hmm10/hmmdefs -M hmm11 triphones1
+HERest  ML Updating: Transitions Means Variances MixWeights 
+
+ System is SHARED
+62 Logical/62 Physical Models Loaded, VecSize=39
+1 MMF input files
+Pruning-Off
+ Processing Data: rep_buf_Fri_Feb_01_07_14_28_2019.mfc; Label rep_buf_Fri_Feb_01_07_14_28_2019.lab
+ Utterance prob per frame = -5.720849e+01
+ Processing Data: rep_buf_Fri_Feb_01_09_30_51_2019.mfc; Label rep_buf_Fri_Feb_01_09_30_51_2019.lab
+ Utterance prob per frame = -5.863703e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_32_57_2019.mfc; Label rep_buf_Fri_Feb_01_11_32_57_2019.lab
+ Utterance prob per frame = -5.948442e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_11_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_11_2019.lab
+ Utterance prob per frame = -6.291727e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_23_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_23_2019.lab
+ Utterance prob per frame = -6.344656e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_41_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_41_2019.lab
+ Utterance prob per frame = -6.082158e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_04_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_04_2019.lab
+ Utterance prob per frame = -5.583288e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_21_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_21_2019.lab
+ Utterance prob per frame = -6.138975e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_37_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_37_2019.lab
+ Utterance prob per frame = -5.799945e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_55_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_55_2019.lab
+ Utterance prob per frame = -6.132194e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_35_12_2019.mfc; Label rep_buf_Fri_Feb_01_19_35_12_2019.lab
+ Utterance prob per frame = -6.172048e+01
+ Processing Data: rep_buf_Sat_Feb_02_08_00_00_2019.mfc; Label rep_buf_Sat_Feb_02_08_00_00_2019.lab
+ Utterance prob per frame = -6.201399e+01
+ Processing Data: rep_buf_Sat_Feb_02_10_13_49_2019.mfc; Label rep_buf_Sat_Feb_02_10_13_49_2019.lab
+ Utterance prob per frame = -5.309996e+01
+ Processing Data: rep_buf_Sat_Feb_02_11_18_16_2019.mfc; Label rep_buf_Sat_Feb_02_11_18_16_2019.lab
+ Utterance prob per frame = -5.532339e+01
+ Processing Data: rep_buf_Sat_Feb_02_12_03_24_2019.mfc; Label rep_buf_Sat_Feb_02_12_03_24_2019.lab
+ Utterance prob per frame = -6.071563e+01
+ Processing Data: rep_buf_Sat_Feb_02_19_29_31_2019.mfc; Label rep_buf_Sat_Feb_02_19_29_31_2019.lab
+ Utterance prob per frame = -5.385955e+01
+ Processing Data: rep_buf_Sun_Feb_03_10_19_38_2019.mfc; Label rep_buf_Sun_Feb_03_10_19_38_2019.lab
+ Utterance prob per frame = -6.768670e+01
+ Processing Data: rep_buf_Sun_Feb_03_11_13_06_2019.mfc; Label rep_buf_Sun_Feb_03_11_13_06_2019.lab
+ Utterance prob per frame = -6.543342e+01
+ Processing Data: rep_buf_Sun_Feb_03_14_40_15_2019.mfc; Label rep_buf_Sun_Feb_03_14_40_15_2019.lab
+ Utterance prob per frame = -6.152447e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_12_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_12_2019.lab
+ Utterance prob per frame = -5.781067e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_22_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_22_2019.lab
+ Utterance prob per frame = -6.112059e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_31_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_31_2019.lab
+ Utterance prob per frame = -6.306235e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_40_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_40_2019.lab
+ Utterance prob per frame = -6.310984e+01
+ Processing Data: rep_buf_Thu_Jan_31_22_48_45_2019.mfc; Label rep_buf_Thu_Jan_31_22_48_45_2019.lab
+ Utterance prob per frame = -5.813435e+01
+ WARNING [-2331]  UpdateModels: n-l+i[10] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: i-m+ah[20] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: l-i+m[43] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: n-l+ih[45] copied: only 1 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: j-uh[51] copied: only 1 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+Total 90 floored variance elements in 5 different mixes
+Saving hmm's to dir hmm11
+Reestimation complete - average log prob per frame = -5.972621e+01
+     - total frames seen          = 1.722600e+04
+Press key !
+hmm12...
+/cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest -T 1 -C configtrain.txt -L ../wavs/trilab -s stats -S mfc_triph.scp -H hmm11/hmmdefs -M hmm12 triphones1
+HERest  ML Updating: Transitions Means Variances MixWeights 
+
+ System is SHARED
+62 Logical/62 Physical Models Loaded, VecSize=39
+1 MMF input files
+Pruning-Off
+ Processing Data: rep_buf_Fri_Feb_01_07_14_28_2019.mfc; Label rep_buf_Fri_Feb_01_07_14_28_2019.lab
+ Utterance prob per frame = -5.547580e+01
+ Processing Data: rep_buf_Fri_Feb_01_09_30_51_2019.mfc; Label rep_buf_Fri_Feb_01_09_30_51_2019.lab
+ Utterance prob per frame = -5.666283e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_32_57_2019.mfc; Label rep_buf_Fri_Feb_01_11_32_57_2019.lab
+ Utterance prob per frame = -5.653727e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_11_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_11_2019.lab
+ Utterance prob per frame = -6.123450e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_23_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_23_2019.lab
+ Utterance prob per frame = -6.069125e+01
+ Processing Data: rep_buf_Fri_Feb_01_11_33_41_2019.mfc; Label rep_buf_Fri_Feb_01_11_33_41_2019.lab
+ Utterance prob per frame = -5.794168e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_04_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_04_2019.lab
+ Utterance prob per frame = -5.388021e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_21_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_21_2019.lab
+ Utterance prob per frame = -5.634086e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_37_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_37_2019.lab
+ Utterance prob per frame = -5.469742e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_34_55_2019.mfc; Label rep_buf_Fri_Feb_01_19_34_55_2019.lab
+ Utterance prob per frame = -5.817309e+01
+ Processing Data: rep_buf_Fri_Feb_01_19_35_12_2019.mfc; Label rep_buf_Fri_Feb_01_19_35_12_2019.lab
+ Utterance prob per frame = -5.779173e+01
+ Processing Data: rep_buf_Sat_Feb_02_08_00_00_2019.mfc; Label rep_buf_Sat_Feb_02_08_00_00_2019.lab
+ Utterance prob per frame = -5.701722e+01
+ Processing Data: rep_buf_Sat_Feb_02_10_13_49_2019.mfc; Label rep_buf_Sat_Feb_02_10_13_49_2019.lab
+ Utterance prob per frame = -5.057994e+01
+ Processing Data: rep_buf_Sat_Feb_02_11_18_16_2019.mfc; Label rep_buf_Sat_Feb_02_11_18_16_2019.lab
+ Utterance prob per frame = -5.324126e+01
+ Processing Data: rep_buf_Sat_Feb_02_12_03_24_2019.mfc; Label rep_buf_Sat_Feb_02_12_03_24_2019.lab
+ Utterance prob per frame = -5.772668e+01
+ Processing Data: rep_buf_Sat_Feb_02_19_29_31_2019.mfc; Label rep_buf_Sat_Feb_02_19_29_31_2019.lab
+ Utterance prob per frame = -5.300213e+01
+ Processing Data: rep_buf_Sun_Feb_03_10_19_38_2019.mfc; Label rep_buf_Sun_Feb_03_10_19_38_2019.lab
+ Utterance prob per frame = -6.280735e+01
+ Processing Data: rep_buf_Sun_Feb_03_11_13_06_2019.mfc; Label rep_buf_Sun_Feb_03_11_13_06_2019.lab
+ Utterance prob per frame = -6.416274e+01
+ Processing Data: rep_buf_Sun_Feb_03_14_40_15_2019.mfc; Label rep_buf_Sun_Feb_03_14_40_15_2019.lab
+ Utterance prob per frame = -5.909506e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_12_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_12_2019.lab
+ Utterance prob per frame = -5.535813e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_22_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_22_2019.lab
+ Utterance prob per frame = -5.890340e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_31_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_31_2019.lab
+ Utterance prob per frame = -6.094714e+01
+ Processing Data: rep_buf_Sun_Feb_03_15_02_40_2019.mfc; Label rep_buf_Sun_Feb_03_15_02_40_2019.lab
+ Utterance prob per frame = -6.150193e+01
+ Processing Data: rep_buf_Thu_Jan_31_22_48_45_2019.mfc; Label rep_buf_Thu_Jan_31_22_48_45_2019.lab
+ Utterance prob per frame = -5.597262e+01
+ WARNING [-2331]  UpdateModels: n-l+i[10] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: i-m+ah[20] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: l-i+m[43] copied: only 2 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: n-l+ih[45] copied: only 1 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+ WARNING [-2331]  UpdateModels: j-uh[51] copied: only 1 egs
+ in /cygdrive/f/rsync/RESEARCHS/small_vocabulary_/cygwin32/htk/HTKTools/HERest
+Total 807 floored variance elements in 41 different mixes
+Saving hmm's to dir hmm12
+Reestimation complete - average log prob per frame = -5.703090e+01
+     - total frames seen          = 1.722600e+04
+Adding sp
