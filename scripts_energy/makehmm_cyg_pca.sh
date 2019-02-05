@@ -3,6 +3,7 @@ source env_cygwin.sh
 HVITE=$HTKTOOLS_DIR/HVite
 mkdir -p hmm0
 init_name=initial_PCA
+init_name=initial_PCA10
 cp hinitoutput/$init_name hmm0/
 echo "ubuntu listing phonems from $labdir "
 awk '{

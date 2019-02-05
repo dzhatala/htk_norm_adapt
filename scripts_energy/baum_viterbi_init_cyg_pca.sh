@@ -13,6 +13,7 @@ trace_flag="-T 511"
 trace_flag="-T 11"
 init_file=initial_0_D_A
 init_file=initial_PCA
+init_file=initial_PCA10
 cmd="$HTKTOOLS_DIR/HInit -T 1  -C config_train_pca.txt $trace_flag -m 1 -M hinitoutput $init_file -S train_pca.lst"
 echo $cmd ; eval $cmd
 echo "initialized in hinitoutput/$init_file"
