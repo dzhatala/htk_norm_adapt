@@ -3,6 +3,7 @@ source env_cygwin.sh
 dir=hmm12
 phonems=triphones1_srtd
 dict=cdict.txt
+#dict=mono_dict.txt
 ftest=test.lst
 
 rm -f words.net

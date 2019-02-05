@@ -12,15 +12,11 @@
 @echo off
 set z_my_cmd=%HTKTOOLS_DIR%\HCopy -T 7 -C configcopy.txt -S wav2mfcc_lst.w32
 @echo on
-echo %z_my_cmd% 
-@rem ; eval $cmd
-@rem set
+@rem echo %z_my_cmd% 
 @rem %z_my_cmd%
 
 @echo off
 set z_my_cmd=%HTKTOOLS_DIR%\HCopy -T 7 -C configcopy_htk_mfcc.txt -S htk2_mfcc_lst.w32
 @echo on
 echo %z_my_cmd% 
-@rem ; eval $cmd
-@rem set
 @%z_my_cmd%

@@ -43,7 +43,8 @@ trilab="-L ../wavs/trilab"
 cmd="cp train.lst mfc_triph.scp"
 echo $cmd ; eval $cmd
 
-prune="-t 250.0 150.0 5000.0"
+prune_param="50.0 150.0 1000.0"
+
 cmd="$HTKTOOLS_DIR/HERest  -T 1 -C configtrain.txt $trilab $prune -s stats \
 -S mfc_triph.scp  -H hmm10/hmmdefs -M hmm11 triphones1"
 echo $cmd ; eval $cmd
@@ -59,3 +60,7 @@ echo "Adding sp"
 cat master_sp_share_sil.txt >> hmm12/hmmdefs
 
 #./makenet.sh
+
+
+cmd="$HTKTOOLS_DIR/HHEd -B  -H hmm12/hmmdefs -M hmm13 tree.hed triphones1"
+#eval $cmd > log.hmm13
