@@ -2,7 +2,7 @@ source env_cygwin.sh
 
 dir=hmm7
 phonems=monophones1
-dict=cdict.txt
+dict=mono_dict.txt
 ftest=ctest.lst
 
 gram=wgram_isol.txt

@@ -14,7 +14,7 @@ echo $cmd ; eval $cmd
 outdir="../../wavs/results"
 mkdir -p $outdir
 rm -f recw.mlf
-penalty=-p -0.0 -s 5.0 
+penalty="-p -0.0 -s 5.0"
 cmd="$HTKTOOLS_DIR/HVite $penalty  -l $outdir -y recw  -T 1  -w words.net -C configtrain.txt  -H $dir/hmmdefs \
  -o S -S $ftest $dict $phonems"
 echo $cmd ; eval $cmd

@@ -1,3 +1,18 @@
+NOISE	#N sp
+NOISE	#N s-eh+m l+ah l+ih
+NOISE	ah-m l+ah l+ih sp
+NUM_0	k+oh k-oh+s oh-s+oh s-oh+ng oh-ng
 NUM_1   s+ah s-ah+t ah-t+uh t-uh+d
+NUM_1   l+ah s-ah+t ah-t+uh t-uh+d
 NUM_2	uh-d+uw d-uw+ah uw-ah
+NUM_3	t+ih ih-g+ah g-ah+ah
+NUM_4	ah+m ah-m+p m-p+ah p-ah+t ah-t
+NUM_4	uw-ah ah-m+p m-p+ah p-ah+t ah-t
+NUM_4 	p-ah+t  ah-m+p m-p+ah p-ah+t ah-t
+NUM_5	l+ih l-ih+m ih-m+ah m-ah+ah 
+NUM_6	ah-ah+n ah-n+ah n-ah+m ah-m
+NUM_7	n-t+uh t-uh+j uh-j+uh uh-h
+NUM_8	l+ah l-ah+p ah-p+ah p-ah+n ah-n
+NUM_9	s+eh s-eh+m eh-m+b m-b+ih b-ih+l ih-l+ah l-ah+n ah-n
 SILSP	sil
+

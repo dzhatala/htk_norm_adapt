@@ -1,4 +1,5 @@
 source env_cygwin.sh
+source env_cyg_mfcc_pca.sh
 echo datadir=$datadir
 mkdir -p $trilab
 rm -f $trilab/*.lab  

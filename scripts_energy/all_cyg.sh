@@ -1,6 +1,6 @@
 ./maketrain_lst.sh
 echo "preparemfc.bat" ; read
-echo baum_viterbi_init_cyg.sh
+echo baum_viterbi_init ...
 yes | ./baum_viterbi_init_cyg.sh
 yes | ./makehmm_cyg.sh
 yes | ./mktrilab_cyg.sh

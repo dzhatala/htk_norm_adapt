@@ -1,4 +1,6 @@
-NOISE	t d sp
+NOISE	#N sp
 NUM_1   s ah t uh
 NUM_2	d uw ah
+NUM_3	t ih g ah
+NUM_4	ah m p ah t
 SILSP	sil

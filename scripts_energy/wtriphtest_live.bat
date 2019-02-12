@@ -22,7 +22,11 @@ set X_DIR=F:\rsync\RESEARCHS\small_vocabulary_\vs2008\projecs_vs2008\Release
 @rem set is_live=-g
 set is_live=-S rep_test.lst
 set is_live=-g
-@set z_my_cmd=%X_DIR%\HTK_vs2008 -Z 5  -i recw.mlf  -T 1 %is_live% -w cwords.net -C configlive.txt  -H %dir%\hmmdefs -o S  %dict% %phonems%
+set rep_length=-Z 5
+set saveaudioout=-e
+set label_out=-i recw.mlf
+set label_out=-l tmp\
+@set z_my_cmd=%X_DIR%\HTK_vs2008 %saveaudioout% %rep_length%  %label_out%  -y rlv -T 1 %is_live% -w cwords.net -C configlive.txt  -H %dir%\hmmdefs -o S  %dict% %phonems%
 @echo on
 @echo %z_my_cmd% 
 @%z_my_cmd% 

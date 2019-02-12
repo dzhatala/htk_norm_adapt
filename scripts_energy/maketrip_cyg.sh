@@ -57,8 +57,8 @@ cmd="$HTKTOOLS_DIR/HERest  -T 1 -C configtrain.txt $trilab $prune -s stats \
 echo $cmd ; eval $cmd
 
 echo "Adding sp"
-cat master_sp_share_sil.txt >> hmm12/hmmdefs
-
+cp hmm12/hmmdefs hmm12/temp
+./fix_sil_sp.awk hmm12/temp >> hmm12/hmmdefs
 #./makenet.sh
 
 
