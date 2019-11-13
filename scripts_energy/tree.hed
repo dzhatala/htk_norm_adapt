@@ -1,1 +1,11 @@
-CL triphones1
+RO 100.0 stats
+TR 1
+QS "L_Class-Stop" {p-*,b-*,t-*,d-*,k-*,g-*}
+QS "R_Class-Stop" {*+p,*+b,*+t,*+d,*+k,*+g}
+QS "L_Nasal" {m-*,n-*,ng-*}
+QS "R_Nasal" {*+m,*+n,*+ng}
+
+
+CO "tiedlist"
+ST "trees"
+

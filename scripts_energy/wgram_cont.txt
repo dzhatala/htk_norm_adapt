@@ -1,3 +1,20 @@
-$NUM  =   NUM_1 | NUM_2 | NUM_3 | NUM_4 | NUM_5 | NUM_6	|NUM_8|NUM_7|NUM_0|NUM_9;
+/***/
+$NUM  =   NUM_1 | NUM_2 | NUM_3 | NUM_3_4 | NUM_4 | NUM_4_3|ON|OFF;
 $CONT =   < $NUM | SILSP|NOISE> ;
 (  $CONT  )
+
+
+
+/***   grammar for on/off switchers   ***/
+/*
+$NUM  =   NUM_1 | NUM_2 | NUM_3 | NUM_3_4 | NUM_4 | NUM_4_3;
+$SIL_NOISE=SILSP|NOISE;
+$CONT =   < $NUM | $SIL_NOISE> ;
+$ON_OFF=ON | OFF;
+$CMD =   <   {$SIL_NOISE} <$NUM> {$SIL_NOISE} $ON_OFF {$SIL_NOISE} >;
+$SENT = $CONT |   $CMD ;
+(  $SENT  )
+*/
+
+
+

@@ -30,13 +30,16 @@ cp hmm7_$prefix/* hmm9_$prefix/
 #cut -f 3 -d " " ../trilab/*lab | sort | uniq > triphones1 ; 
 #ping localhost > /dev/null ; sync  
 
+
  
 echo "hmm10_$prefix..."
 mkdir -p hmm10_$prefix
 cmd="$HTKTOOLS_DIR/HHEd   -H hmm9_$prefix/hmmdefs -M hmm10_$prefix TS_mktri.hed monophones1"
 echo $cmd ; eval $cmd 
-
 echo "ENTER!" ; read
+
+
+
  
 echo "hmm11_$prefix..."
 mkdir -p hmm11_$prefix
@@ -59,11 +62,34 @@ cmd="$HTKTOOLS_DIR/HERest  -T 1 -C $fconfig $trilab $prune -s stats \
 -S mfc_triph.scp  -H hmm11_$prefix/hmmdefs -M hmm12_$prefix triphones1"
 echo $cmd ; eval $cmd
 
+
+
+
+
+
+echo "creating 3 dict"
+cmd="$HTKTOOLS_DIR/HDMan -T 1 -b sil  -n fulllist -g global.ded -l flog beep-tri mono_dict.txt"
+echo $cmd ; eval $cmd  ; echo "ENTER!" ; read
+
+mkdir -p hmm13_$prefix
+cmd="$HTKTOOLS_DIR/HHEd -B  -H hmm12_$prefix/hmmdefs -M hmm13_$prefix tree.hed triphones1"
+echo $cmd ; eval $cmd 
+echo "ENTER" ; read
+
+mkdir  -p hmm14_$prefix
+cmd="$HTKTOOLS_DIR/HERest  -T 1 -C $fconfig $trilab $prune -s stats \
+-S mfc_triph.scp  -H hmm13_$prefix/hmmdefs -M hmm14_$prefix triphones1"
+echo $cmd ; eval $cmd
+
+mkdir  -p hmm15_$prefix
+cmd="$HTKTOOLS_DIR/HERest  -T 1 -C $fconfig $trilab $prune -s stats \
+-S mfc_triph.scp  -H hmm14_$prefix/hmmdefs -M hmm15_$prefix triphones1"
+echo $cmd ; eval $cmd
+
+
+
+phones=tiedlist
 echo "Adding sp"
-cp hmm12_$prefix/hmmdefs hmm12_$prefix/temp
-./fix_sil_sp.awk hmm12_$prefix/temp >> hmm12_$prefix/hmmdefs
-
-
-
-cmd="$HTKTOOLS_DIR/HHEd -B  -H hmm12_$prefix/hmmdefs -M hmm13 tree.hed triphones1"
-#eval $cmd > log.hmm13
+cp hmm15_$prefix/hmmdefs hmm15_$prefix/temp
+./fix_sil_sp.awk hmm15_$prefix/temp >> hmm15_$prefix/hmmdefs
+echo sp >> $phones

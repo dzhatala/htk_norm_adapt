@@ -56,6 +56,7 @@ cat phonems.lst > monophones1.tmp
 sort monophones1.tmp | uniq | sort > monophones1
 
 cmd="$HTKTOOLS_DIR/HHEd -T 1  -H hmm4_$prefix/hmmdefs -M hmm5_$prefix sil_mix.hed monophones1"
+#cmd="$HTKTOOLS_DIR/HHEd -T 1  -H hmm4_$prefix/hmmdefs -M hmm5_$prefix sil_mix_TB.hed monophones1"
 echo $cmd ; eval $cmd
 
 read

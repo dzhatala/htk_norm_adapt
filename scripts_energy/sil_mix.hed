@@ -4,3 +4,9 @@ AT 1 3 0.3 {sp.transP}
 MU 3 {ah.state[2-4].mix}
 MU 3 {uh.state[2-4].mix}
 MU 3 {uw.state[2-4].mix}
+MU 3 {ih.state[2-4].mix}
+MU 3 {aa.state[2-4].mix}
+MU 3 {ao.state[2-4].mix}
+MU 3 {s.state[2-4].mix}
+MU 3 {f.state[2-4].mix}
+MU 3 {t.state[2-4].mix}

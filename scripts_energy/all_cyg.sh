@@ -1,4 +1,4 @@
-./maketrain_lst.sh
+#./maketrain_lst.sh
 echo "preparemfc.bat" ; read
 echo baum_viterbi_init ...
 yes | ./baum_viterbi_init_cyg.sh

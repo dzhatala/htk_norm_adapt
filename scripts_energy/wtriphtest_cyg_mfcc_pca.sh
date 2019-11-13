@@ -7,13 +7,15 @@ ftest=test.lst
 
 rm -f words.net
 cmd="$HTKTOOLS_DIR/HParse -T 1 wgram_cont.txt cwords.net"
-echo $cmd ; eval $cmd
+echo $cmd ; eval $cmd ; 
+echo "ENTER" ; read
 
 outdir="../../wavs/results"
 mkdir -p $outdir
 rm -f recw.mlf
+rm $outdir/*rmp
 cmd="$HTKTOOLS_DIR/HVite  -l $outdir -y rmp  -T 1  -w cwords.net -C configtrain_mfcc_pca.txt  -H $dir/hmmdefs \
- -o S  -S test.lst $dict $phonems $@"
+ -o SW  -S test.lst $dict $phonems $@"
 echo $cmd ; eval $cmd
 cmd="$HTKTOOLS_DIR/HVite    -i recw.mlf -T 1  -w cwords.net -C configtrain_mfcc_pca.txt  -H $dir/hmmdefs \
  -o S -S ctest.lst $dict $phonems"

@@ -3,7 +3,7 @@ source env_cyg_mfcc_pca.sh
 echo "datadir $datadir"
 echo "labdir $labdir"
 echo "wait ... "
-for x in `ls $labdir/*.lab | sort -r`
+for x in `ls $labdir/*.lab | sort`
 do 
 	y=`echo $x | sed s/lab/sfs/`
 	cmd="rm -f $y"
