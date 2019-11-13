@@ -1,0 +1,28 @@
+NOISE	NNN sil
+
+
+#NUM_1    s+a s-a+t a-t+u t-u+o
+#NUM_1	   
+
+
+
+#NUM_2	     
+
+NUM_3	   h+i h-i+j i-j+o j-o+h 
+NUM_3	   h+i h-i+j i-j+o j-au+o au-o+n
+#NUM_3	   
+#NUM_3	 sil 
+#NUM_3	  sil  
+#NUM_3	  sil 
+
+NUM_4	 m m-e+r e-r+a r-a+m   
+#NUM_4	 sil   
+
+ON		 o+f o-n
+#ON		    
+OFF		 o+f o-f
+#OFF		   
+SILSP	sil
+SILSP	lsil
+SILSP	 sil
+SILSP	 sp

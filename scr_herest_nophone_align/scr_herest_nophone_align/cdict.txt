@@ -1,0 +1,36 @@
+NOISE	NNN sil
+
+NOISE	d sil
+NOISE	g sil
+NOISE	p sil
+NOISE	t sil
+
+NUM_1   s a t u
+NUM_1	b i r u
+#NUM_1	blu 
+
+NUM_2	d uw a 
+NUM_2	k u n i  ng
+#NUM_2	y e l o
+NUM_3	t i g a
+NUM_3	i j o
+NUM_3	h i j a uw
+NUM_3	h i j au
+NUM_3	g r i n
+
+NUM_4	a m p a t
+NUM_4	m e r a h
+NUM_4   r e d
+
+OFF		o f
+OFF		m a t i
+
+ON		o n
+ON		h i d u p
+
+SILSP	sil
+SILSP	lsil
+SILSP	s sil
+SILSP	m sil
+SILSP	g sil
+SILSP	h sil

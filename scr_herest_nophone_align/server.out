@@ -1,0 +1,82 @@
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>..\..\..\small_vocabulary_\vs2008\htk\bin.win32\HParse -T 1 wgram_cont.txt cwords.net 
+Creating HParse net from file wgram_cont.txt
+Generating Lattice with 23 nodes and 53 links
+Writing Word Lattice to cwords.net
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>del /q tmp\* 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set outdir=..\..\wavs\results 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set X_DIR=F:\rsync\RESEARCHS\small_vocabulary_\vs2008\projecs_vs2008\Release 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set is_replay=-g 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set is_replay=  
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set rep_length=-Z 17 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set rep_length=-Z 13 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set saveaudioout=-e 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set label_out=-i recw.mlf 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>set label_out=-l tmp\ 
+HVIte_rep_buf_005 -e -Z 13  -l tmp\  -y rlv -T 1   -w cwords.net -C configlive_pca.txt  -H hmm1\hmmdefs -o S  cdict.txt monophones1 
+scaller >0 0.700000  
+Read 15 physical / 15 logical HMMs
+Read lattice with 23 nodes / 53 arcs
+Created network with 113 nodes / 213 links
+
+READY[1]>
+ WARNING [-1]  zoel in MMAPI_AUDIO InitAudi()  in HVIte_rep_buf_005
+ WARNING [-1]  zmmapi_info1() get 1 Input Audios in HVIte_rep_buf_005
+Input 0 :  Headset (V84475 Hands-Free) == <
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+Please speak sentence - measuring levels
+Level measurement completed
+ WARNING [-1]  zoel in MMAPI_AUDIO InitAudi()  in HVIte_rep_buf_005
+ WARNING [-1]  zmmapi_info1() get 1 Input Audios in HVIte_rep_buf_005
+Input 0 :  Headset (V84475 Hands-Free) == <
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+A: 9947.448494.2 e: 44.822618 dB, avg: 11.205654 frsize:400 scaler:0.700000 
+A: 532.607500.2 e: 32.109573 dB, avg: 19.233047 frsize:400 scaler:0.700000 
+A: 6.310900.2 e: 12.846414 dB, avg: 22.444651 frsize:400 scaler:0.700000 
+SILSP SILSP SILSP SILSP  ==  [60 frames] -72.1869 [Ac=-4331.2 LM=0.0] (Act=97.3)
+
+READY[2]>
+ WARNING [-1]  zoel in MMAPI_AUDIO InitAudi()  in HVIte_rep_buf_005
+ WARNING [-1]  zmmapi_info1() get 1 Input Audios in HVIte_rep_buf_005
+Input 0 :  Headset (V84475 Hands-Free) == <
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+A: 17.718400.2 e: 17.329746 dB, avg: 4.332437 frsize:400 scaler:0.700000 
+A: 8.120000.2 e: 13.941061 dB, avg: 7.817702 frsize:400 scaler:0.700000 
+A: 1.698594.2 e: 7.146396 dB, avg: 9.604301 frsize:400 scaler:0.700000 
+A: 2.200975.2 e: 8.271652 dB, avg: 11.672214 frsize:400 scaler:0.700000 
+A: 2.217994.2 e: 8.305104 dB, avg: 9.416053 frsize:400 scaler:0.700000 
+A: 13.744194.2 e: 16.226693 dB, avg: 9.987462 frsize:400 scaler:0.700000 
+A: 14.373194.2 e: 16.421033 dB, avg: 12.306121 frsize:400 scaler:0.700000 
+A: 1.648400.2 e: 7.016127 dB, avg: 11.992240 frsize:400 scaler:0.700000 
+A: 615.625944.2 e: 32.738670 dB, avg: 18.100631 frsize:400 scaler:0.700000 
+A: 38.692344.2 e: 20.721751 dB, avg: 19.224395 frsize:400 scaler:0.700000 
+SILSP NUM_1 NUM_3 OFF SILSP SILSP SILSP  ==  [153 frames] -74.5049 [Ac=-11399.2 LM=0.0] (Act=105.6)
+
+READY[3]>
+ WARNING [-1]  zoel in MMAPI_AUDIO InitAudi()  in HVIte_rep_buf_005
+ WARNING [-1]  zmmapi_info1() get 1 Input Audios in HVIte_rep_buf_005
+Input 0 :  Headset (V84475 Hands-Free) == <
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+Starting Audio Input from active state = 1  WAVE_MAPPER -1 
+A: 2.272494.2 e: 8.410528 dB, avg: 2.102632 frsize:400 scaler:0.700000 
+A: 0.071494.2 e: -6.611819 dB, avg: 0.449677 frsize:400 scaler:0.700000 
+A: 0.409975.2 e: 0.973074 dB, avg: 0.692946 frsize:400 scaler:0.700000 
+A: 28.554844.2 e: 19.402299 dB, avg: 5.543520 frsize:400 scaler:0.700000 
+A: 1.982900.2 e: 7.818509 dB, avg: 5.395516 frsize:400 scaler:0.700000 
+A: 1.098244.2 e: 5.252488 dB, avg: 8.361592 frsize:400 scaler:0.700000 
+Terminate batch job (Y/N)? 
+
+F:\rsync\RESEARCHS\htkbook_to_c_code\htk_normalization_adaptation\scr_hinit_hrest_herest>

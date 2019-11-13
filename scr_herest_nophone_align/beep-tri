@@ -1,0 +1,24 @@
+NOISE           NNN sil
+NOISE           d sil
+NOISE           g sil
+NOISE           p sil
+NOISE           t sil
+NUM_1           s+a s-a+t a-t+u t-u
+NUM_1           b+i b-i+r i-r+u r-u
+NUM_2           d+uw d-uw+a uw-a
+NUM_2           k+u k-u+n u-n+i n-i+ng i-ng
+NUM_3           t+i t-i+g i-g+a g-a
+NUM_3           h+i h-i+j i-j+a j-a+uw a-uw
+NUM_3           h+i h-i+j i-j+au j-au
+NUM_4           a+m a-m+p m-p+a p-a+t a-t
+NUM_4           m+e m-e+r e-r+a r-a+h a-h
+OFF             o+f o-f
+OFF             m+a m-a+t a-t+i t-i
+ON              o+n o-n
+ON              h+i h-i+d i-d+u d-u+p u-p
+SILSP           sil
+SILSP           lsil
+SILSP           s sil
+SILSP           m sil
+SILSP           g sil
+SILSP           h sil

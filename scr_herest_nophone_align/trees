@@ -1,0 +1,5 @@
+QS 'L_Class-Stop' { "g-*","k-*","d-*","t-*","b-*","p-*" }
+QS 'R_Class-Stop' { "*+g","*+k","*+d","*+t","*+b","*+p" }
+QS 'L_Nasal' { "ng-*","n-*","m-*" }
+QS 'R_Nasal' { "*+ng","*+n","*+m" }
+

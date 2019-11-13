@@ -1,0 +1,36 @@
+../htk_pure/htk/HTKTools/HInit -T 1 -C configtrain.txt -m 1 -M fullhinit_out initial_0_D_A_6 -S tala_train.lst
+Initialising  HMM initial_0_D_A_6 . . . 
+ States   :   2  3  4  5 (width)
+ Mixes  s1:   1  1  1  1 ( 39  )
+ Num Using:   0  0  0  0
+ Parm Kind:  MFCC_D_A_0
+ Number of owners = 1
+ SegLab   :  NONE
+ maxIter  :  20
+ epsilon  :  0.000100
+ minSeg   :  1
+ Updating :  Means Variances MixWeights/DProbs TransProbs
+
+ - system is PLAIN
+3019 Observation Sequences Loaded
+Starting Estimation Process
+Iteration 1: Average LogP =-70232.06250
+Iteration 2: Average LogP =-69005.26562  Change =  1226.79688
+Iteration 3: Average LogP =-68858.10938  Change =   147.15625
+Iteration 4: Average LogP =-68791.86719  Change =    66.24219
+Iteration 5: Average LogP =-68726.60156  Change =    65.26562
+Iteration 6: Average LogP =-68665.56250  Change =    61.03906
+Iteration 7: Average LogP =-68603.28125  Change =    62.28125
+Iteration 8: Average LogP =-68531.55469  Change =    71.72656
+Iteration 9: Average LogP =-68490.28125  Change =    41.27344
+Iteration 10: Average LogP =-68475.15625  Change =    15.12500
+Iteration 11: Average LogP =-68473.03906  Change =     2.11719
+Iteration 12: Average LogP =-68472.70312  Change =     0.33594
+Iteration 13: Average LogP =-68472.65625  Change =     0.04688
+Iteration 14: Average LogP =-68472.63281  Change =     0.02344
+Iteration 15: Average LogP =-68472.71094  Change =    -0.07812
+Iteration 16: Average LogP =-68472.70312  Change =     0.00781
+Iteration 17: Average LogP =-68472.71094  Change =    -0.00781
+Iteration 18: Average LogP =-68472.71094  Change =     0.00000
+Estimation converged at iteration 19
+Output written to directory fullhinit_out

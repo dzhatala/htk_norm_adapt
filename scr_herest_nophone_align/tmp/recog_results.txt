@@ -1,0 +1,4 @@
+1573604132
+printing ready
+1573604143
+SILSP NUM_1 on NUM_2 off SILSP SILSP  ==  [242 frames] -52.4831 [Ac=-12700.9 LM=0.0] (Act=248.1)

@@ -1,0 +1,4 @@
+# Coding parameters
+SOURCEFORMAT = HTK
+MEASURESIL=F
+PCAFILTERED=T

@@ -1,0 +1,24 @@
+
+/* { } zero or multiple 
+    <> one or multiple 
+*/
+/***PDP VERSION***/
+
+$SIL_NOISE = {SILSP | NOISE} ;
+$tv = TV;
+$pump = pompa | pompa $SIL_NOISE air;
+$fan  = kipas | kipas $SIL_NOISE angin ;
+$AC = AC; 
+$SW_1 = NUM_1 | biru | $tv ;
+$SW_2=  NUm_2 | kuning | $pump;
+$SW_3=  NUM_3 | hijau | $fan;
+$SW_4 = NUM_4 | merah | $AC;
+$SWITCH_DGT =  $SW_1| $SW_2 | $SW_3 | $SW_4  ;
+$SILENCE = SILSP ;
+$ON = on | hidup; 
+$OFF = mati | off; 
+$ON_OFF = $ON| $OFF;
+$CONT =    $SWITCH_DGT $SIL_NOISE $ON_OFF ; 
+$SENTENCE = { <$CONT $SIL_NOISE>  } ;
+($SILENCE $SENTENCE $SILENCE)
+

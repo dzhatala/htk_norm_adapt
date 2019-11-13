@@ -1,0 +1,16 @@
+
+/* { } zero or multiple 
+    <> one or multiple 
+*/
+/***PDP VERSION***/
+
+$SWITCH_DGT =  NUM_1| NUM_2 | NUM_3 | NUM_4  ;
+$SILENCE = SILSP ; 
+$SWITCH_W = BATHROOM | GARDEN | AIR_COND|TV;
+$ON_OFF = ON| OFF;
+$SIL_NOISE = {SILSP | NOISE} ;
+$CONT =    $SWITCH_DGT $SIL_NOISE $ON_OFF | SILSP ; 
+$SENTENCE = { <$CONT $SIL_NOISE>  } ;
+($SILENCE $SENTENCE $SILENCE)
+
+

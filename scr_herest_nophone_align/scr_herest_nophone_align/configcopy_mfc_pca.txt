@@ -1,0 +1,4 @@
+# Coding parameters from mfc to pca
+SOURCEKIND = ANON
+TARGETFORMAT = HTK
+TARGETKIND = ANON

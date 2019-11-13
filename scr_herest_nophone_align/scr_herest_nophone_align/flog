@@ -1,0 +1,38 @@
+WARNING: no script file mono_dict.txt.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+mono_dict.tx         8          8         24         24
+    beep-tri         8          8         24         24
+
+8 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. NNN   :     1
+  2. sil   :    10
+  3. d     :     3
+  4. g     :     3
+  5. p     :     3
+  6. t     :     5
+  7. s     :     2
+  8. a     :     8
+  9. u     :     4
+ 10. b     :     1
+ 11. i     :     7
+ 12. r     :     2
+ 13. uw    :     2
+ 14. k     :     1
+ 15. n     :     2
+ 16. ng    :     1
+ 17. h     :     5
+ 18. j     :     2
+ 19. au    :     1
+ 20. m     :     4
+ 21. e     :     1
+ 22. o     :     2
+ 23. f     :     1
+ 24. lsil  :     1
+
+Dictionary beep-tri created

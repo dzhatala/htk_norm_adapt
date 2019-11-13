@@ -1,0 +1,15 @@
+../htk_pure/htk/HTKTools/HInit -T 1 -C configtrain.txt -m 1 -M fullhinit_out initial_0_D_A_6 -S tala_train.lst
+Initialising  HMM initial_0_D_A_6 . . . 
+ States   :   2  3  4  5 (width)
+ Mixes  s1:   1  1  1  1 ( 39  )
+ Num Using:   0  0  0  0
+ Parm Kind:  MFCC_D_A_0
+ Number of owners = 1
+ SegLab   :  NONE
+ maxIter  :  20
+ epsilon  :  0.000100
+ minSeg   :  1
+ Updating :  Means Variances MixWeights/DProbs TransProbs
+
+ - system is PLAIN
+3019 Observation Sequences Loaded

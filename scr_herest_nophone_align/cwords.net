@@ -1,0 +1,112 @@
+VERSION=1.0
+N=36   L=74   
+I=0    W=!NULL               
+I=1    W=!NULL               
+I=2    W=SILSP               
+I=3    W=NOISE               
+I=4    W=!NULL               
+I=5    W=SILSP               
+I=6    W=NUM_1               
+I=7    W=!NULL               
+I=8    W=biru                
+I=9    W=TV                  
+I=10   W=kuning              
+I=11   W=NUM_2               
+I=12   W=pompa               
+I=13   W=pompa               
+I=14   W=!NULL               
+I=15   W=NOISE               
+I=16   W=SILSP               
+I=17   W=air                 
+I=18   W=NUM_3               
+I=19   W=hijau               
+I=20   W=kipas               
+I=21   W=kipas               
+I=22   W=!NULL               
+I=23   W=NOISE               
+I=24   W=SILSP               
+I=25   W=angin               
+I=26   W=NUM_4               
+I=27   W=merah               
+I=28   W=AC                  
+I=29   W=NOISE               
+I=30   W=SILSP               
+I=31   W=on                  
+I=32   W=hidup               
+I=33   W=mati                
+I=34   W=off                 
+I=35   W=SILSP               
+J=0     S=35   E=1    
+J=1     S=0    E=2    
+J=2     S=4    E=3    
+J=3     S=3    E=4    
+J=4     S=5    E=4    
+J=5     S=31   E=4    
+J=6     S=32   E=4    
+J=7     S=33   E=4    
+J=8     S=34   E=4    
+J=9     S=4    E=5    
+J=10    S=2    E=6    
+J=11    S=4    E=6    
+J=12    S=6    E=7    
+J=13    S=8    E=7    
+J=14    S=9    E=7    
+J=15    S=10   E=7    
+J=16    S=11   E=7    
+J=17    S=12   E=7    
+J=18    S=17   E=7    
+J=19    S=18   E=7    
+J=20    S=19   E=7    
+J=21    S=20   E=7    
+J=22    S=25   E=7    
+J=23    S=26   E=7    
+J=24    S=27   E=7    
+J=25    S=28   E=7    
+J=26    S=29   E=7    
+J=27    S=30   E=7    
+J=28    S=2    E=8    
+J=29    S=4    E=8    
+J=30    S=2    E=9    
+J=31    S=4    E=9    
+J=32    S=2    E=10   
+J=33    S=4    E=10   
+J=34    S=2    E=11   
+J=35    S=4    E=11   
+J=36    S=2    E=12   
+J=37    S=4    E=12   
+J=38    S=2    E=13   
+J=39    S=4    E=13   
+J=40    S=13   E=14   
+J=41    S=15   E=14   
+J=42    S=16   E=14   
+J=43    S=14   E=15   
+J=44    S=14   E=16   
+J=45    S=14   E=17   
+J=46    S=2    E=18   
+J=47    S=4    E=18   
+J=48    S=2    E=19   
+J=49    S=4    E=19   
+J=50    S=2    E=20   
+J=51    S=4    E=20   
+J=52    S=2    E=21   
+J=53    S=4    E=21   
+J=54    S=21   E=22   
+J=55    S=23   E=22   
+J=56    S=24   E=22   
+J=57    S=22   E=23   
+J=58    S=22   E=24   
+J=59    S=22   E=25   
+J=60    S=2    E=26   
+J=61    S=4    E=26   
+J=62    S=2    E=27   
+J=63    S=4    E=27   
+J=64    S=2    E=28   
+J=65    S=4    E=28   
+J=66    S=7    E=29   
+J=67    S=7    E=30   
+J=68    S=7    E=31   
+J=69    S=7    E=32   
+J=70    S=7    E=33   
+J=71    S=7    E=34   
+J=72    S=2    E=35   
+J=73    S=4    E=35   

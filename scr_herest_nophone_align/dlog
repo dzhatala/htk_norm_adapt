@@ -1,0 +1,38 @@
+WARNING: no script file zoel_mono.dict.0.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+zoel_mono.di        20         20         33         33
+zoel_mono.di        20         20         33         33
+
+20 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. a     :    17
+  2. s     :     5
+  3. e     :     5
+  4. NNN   :     1
+  5. sil   :     9
+  6. d     :     4
+  7. g     :     2
+  8. p     :     8
+  9. t     :     8
+ 10. u     :     7
+ 11. w     :     1
+ 12. i     :    15
+ 13. m     :     7
+ 14. h     :     5
+ 15. l     :     1
+ 16. f     :     3
+ 17. r     :     3
+ 18. ng    :     2
+ 19. n     :     3
+ 20. b     :     1
+ 21. j     :     3
+ 22. o     :     4
+ 23. au    :     1
+ 24. k     :     2
+
+Dictionary zoel_mono.dict created
