@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="HVite_vs2008_INXFORM"
+	Name="HVite_vs2008_repbuf"
 	ProjectGUID="{F0D899B5-198C-43E2-B375-0B1F1C4C785A}"
 	RootNamespace="HTK_vs2008"
 	Keyword="Win32Proj"

@@ -3877,7 +3877,7 @@ static int FramesInChannel(ParmBuf pbuf,int chType)
 
 /* Get a single frame from particular channel */
 /*  Return value indicates number of frames read okay */
-static time_t delay_print_1=0; /**zoel **/
+static time_t delay_print_1=0; /**zoel, delay between print in seconds **/
 static double v_e_ =0.0 ; /**zoel **/
 static int GetFrameFromChannel(ParmBuf pbuf,int chType,void *vp)
 {
@@ -3964,7 +3964,7 @@ static int GetFrameFromChannel(ParmBuf pbuf,int chType,void *vp)
       cf->curVol = e;
 	  now=time(NULL);
 
-	  if(chType==ch_haudio&& now-delay_print_1>0){
+	  if(chType==ch_haudio&& now-delay_print_1>5){
 		  printf("A: %f.2 e: %f dB, avg: %f frsize:%i scaler:%f \n",v_e_,e,
 			  (cf->lastVol_3+cf->curVol+cf->lastVol_1+cf->lastVol_2)/4,cf->frSize,cf->volumeScaler); /*zoel print energy*/
 		delay_print_1=now;
@@ -4204,16 +4204,14 @@ static void FillBufFromChannel(ParmBuf pbuf,int minRows)
        pbuf->cf->selfCalSilDet!=0)
       SetSelfCalSpDetParms(pbuf);
    if (cf->useSilDet){
-       /*printf("zoel HParm.c 003 - useSilDet\n"); */ /**zoel HParm.c 003 **/
-	   
-		   if ((cf->srcFF == HTK || cf->srcFF == ESIG ) && cf->srcPK != WAVEFORM){
-
-	   }else {		   
-		   RunSilDet(pbuf,cleared);
-	   }
+		/*printf("RunSilDet IS run\n");
+		printf("srcFF %d srcPK %d\n",cf->srcFF,cf->srcPK);
+		*/
+	   RunSilDet(pbuf,cleared);
    }
    else {
-      pbuf->spDetFin=pbuf->qen+pbuf->main.stRow;
+     printf("RunSilDet ISNOT run\n");
+	 pbuf->spDetFin=pbuf->qen+pbuf->main.stRow;
       /* Mark end of utterance */
       if (cleared) pbuf->spDetEn=pbuf->spDetFin+1;
    }
@@ -4237,6 +4235,7 @@ static ReturnStatus OpenAsChannel(ParmBuf pbuf, int maxObs,
    long dBytes;
    char b1[50];
    IOConfig cf = pbuf->cf;
+
 
    /* First determine channel type */
    /* Determine source ie wave or parm file & fill table */
@@ -4281,6 +4280,9 @@ static ReturnStatus OpenAsChannel(ParmBuf pbuf, int maxObs,
       }
     pbuf->qwin += cf->delWin;
    }
+   /****zoel hparm.c:4283 openaschhanel  ***/
+   if (fname!=NULL) cf->useSilDet=FALSE;
+   if (fname==NULL) cf->useSilDet=TRUE;
    /* Open the input */
    switch(chType) {
    case ch_haudio:

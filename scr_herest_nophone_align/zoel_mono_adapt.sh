@@ -20,17 +20,19 @@ fphone="../scr_pdp1819_mono_good_001/monophones1"
 mkdir -p lab_zoel
 #cmd="HLED -l lab_zoel zoel.led ../../../small_vocabulary_/datas/v8_4475_doublefans/*.lab"
 cmd="HLED -i zoel_adapt.mlf zoel.led ../../../small_vocabulary_/datas/v8_4475_doublefans/*.lab"
-#echo $cmd ; eval $cmd; 
+echo $cmd ; eval $cmd; 
 #echo "zoel_adapt.mlf created" ; read
 #use_mlf="-L lab_zoel"
 use_mlf="-I zoel_adapt.mlf"
 
 mkdir -p zoel_classes
+fadapt="zoel_train.lst"
 cmd="HERest -T 1 -C configtrain.txt -C config.semi -S $fadapt $use_mlf -u stw \
 -H full_herest_out/06/hmmdefs   -h '*/*.mfc' -J zoel_classes \
 -K zoel_hmm16 -M zoel_hmm16 monophones_zoel"
 echo $cmd ; eval $cmd
 echo ENTER ; read
+
 
 mkdir -p zoel_hmm17
 cmd="HERest -T 1 -C configtrain.txt  -S $fadapt $use_mlf -u tmvw \

@@ -1059,6 +1059,18 @@ void DoAlignment(void)
    }
 }
 
+static unsigned long fileSize(char* fname)
+{
+    FILE* fp = fopen(fname,"r");
+    int f_size;
+
+    fseek(fp, 0, SEEK_END);
+    f_size = ftell(fp);
+    //rewind(fp); // to back to start again
+	fclose(fp);
+    return  (unsigned long)f_size;
+}
+
 /* DoRecognition:  use single network to recognise each input utterance */
 void DoRecognition(void)
 {
@@ -1067,7 +1079,7 @@ void DoRecognition(void)
    Boolean isPipe;
    int n=0;
    AdaptXForm *incXForm;
-
+	unsigned long fsz=0;
 
    if ( (nf = FOpen(wdNetFn,NetFilter,&isPipe)) == NULL)
       HError(3210,"DoRecognition: Cannot open Word Net file %s",wdNetFn);
@@ -1095,7 +1107,7 @@ void DoRecognition(void)
 
    if (NumArgs()==0) {      /* Process audio */
       while(TRUE){
-		  printf("\n#005-Only ST.Xinp. READY[%d]>\n",++n); fflush(stdout);
+		  printf("\n#009-Only ST.Xinp. READY[%d]>\n",++n); fflush(stdout);
 	 /* no input transform possible for audio input .... */
          
 		 ProcessFileST	(NULL,net,n,genBeam, FALSE);
@@ -1103,7 +1115,16 @@ void DoRecognition(void)
          if (UpdateSpkrStats(&hset, &xfInfo, ".\\tmp\\test.htk") && (!(xfInfo.useInXForm)) && (hset.semiTied == NULL)) {
             xfInfo.inXForm = NULL;
          }
-         ProcessFile(".\\tmp\\test.htk",net,n++,genBeam,FALSE);
+		 fsz=fileSize(".\\tmp\\test.htk");
+		 printf("Filesize = %i \n",fsz);
+		 if (fsz>100000){
+			 printf("ProcessFile...\n");
+			 ProcessFile(".\\tmp\\test.htk",net,n++,genBeam,FALSE);
+		 }
+		 else {
+			 printf ("ignore, too small");
+			 continue;
+		 }
 		
 		 if (update > 0 && n%update == 0) {
             if (trace&T_TOP) {
