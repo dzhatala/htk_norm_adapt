@@ -2,7 +2,7 @@ for electrical switcher, double detection
 use test.bat
 
 #config_htk_live
-# Coding parameters
+#Coding parameters
 SOURCEKIND=WAV
 SOURCEFORMAT=HTK
 #16000 khz = 62.5 mus = 625 ns
