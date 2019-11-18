@@ -1,0 +1,150 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.54 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 5.54 
+        intervals: size = 34 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.035312264900662 
+            text = "" 
+        intervals [2]:
+            xmin = 1.035312264900662 
+            xmax = 1.136568999053926 
+            text = "h" 
+        intervals [3]:
+            xmin = 1.136568999053926 
+            xmax = 1.2545128192842383 
+            text = "i" 
+        intervals [4]:
+            xmin = 1.2545128192842383 
+            xmax = 1.29714723366456 
+            text = "d" 
+        intervals [5]:
+            xmin = 1.29714723366456 
+            xmax = 1.4197211750079848 
+            text = "u" 
+        intervals [6]:
+            xmin = 1.4197211750079848 
+            xmax = 1.4890020983760075 
+            text = "p" 
+        intervals [7]:
+            xmin = 1.4890020983760075 
+            xmax = 1.6142406906182023 
+            text = "sil" 
+        intervals [8]:
+            xmin = 1.6142406906182023 
+            xmax = 1.6462165014034436 
+            text = "#N" 
+        intervals [9]:
+            xmin = 1.6462165014034436 
+            xmax = 1.9446574020656953 
+            text = "sil" 
+        intervals [10]:
+            xmin = 1.9446574020656953 
+            xmax = 2.035255532623879 
+            text = "#N" 
+        intervals [11]:
+            xmin = 2.035255532623879 
+            xmax = 2.0832192488017407 
+            text = "sil" 
+        intervals [12]:
+            xmin = 2.0832192488017407 
+            xmax = 2.1764820302586942 
+            text = "#N" 
+        intervals [13]:
+            xmin = 2.1764820302586942 
+            xmax = 2.227110397335326 
+            text = "h" 
+        intervals [14]:
+            xmin = 2.227110397335326 
+            xmax = 2.347019687779981 
+            text = "i" 
+        intervals [15]:
+            xmin = 2.347019687779981 
+            xmax = 2.3896541021603026 
+            text = "d" 
+        intervals [16]:
+            xmin = 2.3896541021603026 
+            xmax = 2.5335452506938885 
+            text = "u" 
+        intervals [17]:
+            xmin = 2.5335452506938885 
+            xmax = 2.6134847776569914 
+            text = "p" 
+        intervals [18]:
+            xmin = 2.6134847776569914 
+            xmax = 2.818358498286509 
+            text = "sil" 
+        intervals [19]:
+            xmin = 2.818358498286509 
+            xmax = 2.884974770755761 
+            text = "h" 
+        intervals [20]:
+            xmin = 2.884974770755761 
+            xmax = 2.9942254576053355 
+            text = "i" 
+        intervals [21]:
+            xmin = 2.9942254576053355 
+            xmax = 3.055512428277048 
+            text = "d" 
+        intervals [22]:
+            xmin = 3.055512428277048 
+            xmax = 3.1914096241143235 
+            text = "u" 
+        intervals [23]:
+            xmin = 3.1914096241143235 
+            xmax = 3.2713491510774264 
+            text = "p" 
+        intervals [24]:
+            xmin = 3.2713491510774264 
+            xmax = 3.683157519371428 
+            text = "sil" 
+        intervals [25]:
+            xmin = 3.683157519371428 
+            xmax = 3.744444490043141 
+            text = "#N" 
+        intervals [26]:
+            xmin = 3.744444490043141 
+            xmax = 3.844181532453727 
+            text = "sil" 
+        intervals [27]:
+            xmin = 3.844181532453727 
+            xmax = 3.90546850312544 
+            text = "#N" 
+        intervals [28]:
+            xmin = 3.90546850312544 
+            xmax = 3.9507675684045314 
+            text = "h" 
+        intervals [29]:
+            xmin = 3.9507675684045314 
+            xmax = 4.097323367836887 
+            text = "h" 
+        intervals [30]:
+            xmin = 4.097323367836887 
+            xmax = 4.15328103671106 
+            text = "d" 
+        intervals [31]:
+            xmin = 4.15328103671106 
+            xmax = 4.262531723560634 
+            text = "u" 
+        intervals [32]:
+            xmin = 4.262531723560634 
+            xmax = 4.379776363106518 
+            text = "p" 
+        intervals [33]:
+            xmin = 4.379776363106518 
+            xmax = 4.43573403198069 
+            text = "#N" 
+        intervals [34]:
+            xmin = 4.43573403198069 
+            xmax = 5.54 
+            text = "lsil" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.985 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 4.985 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.3654216442762532 
+            text = "" 
+        intervals [2]:
+            xmin = 2.3654216442762532 
+            xmax = 2.480511475875118 
+            text = "d" 
+        intervals [3]:
+            xmin = 2.480511475875118 
+            xmax = 2.6819186811731313 
+            text = "uw" 
+        intervals [4]:
+            xmin = 2.6819186811731313 
+            xmax = 2.811394741721854 
+            text = "a" 
+        intervals [5]:
+            xmin = 2.811394741721854 
+            xmax = 2.96484785052034 
+            text = "o" 
+        intervals [6]:
+            xmin = 2.96484785052034 
+            xmax = 3.113505549668874 
+            text = "n" 
+        intervals [7]:
+            xmin = 3.113505549668874 
+            xmax = 3.244634125811606 
+            text = "sil" 
+        intervals [8]:
+            xmin = 3.244634125811606 
+            xmax = 3.369314776710376 
+            text = "d" 
+        intervals [9]:
+            xmin = 3.369314776710376 
+            xmax = 3.4683658637653734 
+            text = "uw" 
+        intervals [10]:
+            xmin = 3.4683658637653734 
+            xmax = 3.577915096483318 
+            text = "a" 
+        intervals [11]:
+            xmin = 3.577915096483318 
+            xmax = 3.7608858524124877 
+            text = "o" 
+        intervals [12]:
+            xmin = 3.7608858524124877 
+            xmax = 3.8424078164616837 
+            text = "f" 
+        intervals [13]:
+            xmin = 3.8424078164616837 
+            xmax = 4.985 
+            text = "lsil" 

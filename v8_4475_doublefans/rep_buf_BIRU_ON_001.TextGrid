@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.895 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.895 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05644400946073793 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05644400946073793 
+            xmax = 0.1037872563859981 
+            text = "r" 
+        intervals [3]:
+            xmin = 0.1037872563859981 
+            xmax = 0.1929039564806055 
+            text = "u" 
+        intervals [4]:
+            xmin = 0.1929039564806055 
+            xmax = 0.25695658467360455 
+            text = "h" 
+        intervals [5]:
+            xmin = 0.25695658467360455 
+            xmax = 0.36556756291390724 
+            text = "i" 
+        intervals [6]:
+            xmin = 0.36556756291390724 
+            xmax = 0.42126550047303685 
+            text = "d" 
+        intervals [7]:
+            xmin = 0.42126550047303685 
+            xmax = 0.5270915818353831 
+            text = "u" 
+        intervals [8]:
+            xmin = 0.5270915818353831 
+            xmax = 0.5772197256385998 
+            text = "p" 
+        intervals [9]:
+            xmin = 0.5772197256385998 
+            xmax = 1.245594976348155 
+            text = "sil" 
+        intervals [10]:
+            xmin = 1.245594976348155 
+            xmax = 1.3040778107852413 
+            text = "b" 
+        intervals [11]:
+            xmin = 1.3040778107852413 
+            xmax = 1.3820549233680226 
+            text = "i" 
+        intervals [12]:
+            xmin = 1.3820549233680226 
+            xmax = 1.4154736859035004 
+            text = "r" 
+        intervals [13]:
+            xmin = 1.4154736859035004 
+            xmax = 1.47117162346263 
+            text = "u" 
+        intervals [14]:
+            xmin = 1.47117162346263 
+            xmax = 1.5380091485335856 
+            text = "h" 
+        intervals [15]:
+            xmin = 1.5380091485335856 
+            xmax = 1.627125848628193 
+            text = "i" 
+        intervals [16]:
+            xmin = 1.627125848628193 
+            xmax = 1.6883935799432355 
+            text = "d" 
+        intervals [17]:
+            xmin = 1.6883935799432355 
+            xmax = 1.7413066206244088 
+            text = "u" 
+        intervals [18]:
+            xmin = 1.7413066206244088 
+            xmax = 1.8499175988647114 
+            text = "p" 
+        intervals [19]:
+            xmin = 1.8499175988647114 
+            xmax = 2.895 
+            text = "lsil" 

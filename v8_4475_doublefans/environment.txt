@@ -1,0 +1,66 @@
+from devics and printer
+bluetooth v8 ???? 4475
+
+voice mats3, sekai wind, 
+: 6.202400.2 e: 12.771098 dB, avg: 16.366051 frsize:400 scaler:1.000000
+A: 14.948975.2 e: 16.591615 dB, avg: 16.485973 frsize:400 scaler:1.000000
+A: 50190.807775.2 e: 51.851743 dB, avg: 26.131214 frsize:400 scaler:1.000000
+A: 10811.226494.2 e: 45.184250 dB, avg: 31.599676 frsize:400 scaler:1.000000
+A: 32887.364244.2 e: 50.015791 dB, avg: 40.910850 frsize:400 scaler:1.000000
+A: 3040.257500.2 e: 39.674604 dB, avg: 46.681597 frsize:400 scaler:1.000000
+A: 6414.161100.2 e: 42.916899 dB, avg: 44.447886 frsize:400 scaler:1.000000
+A: 12.389975.2 e: 15.776205 dB, avg: 37.095875 frsize:400 scaler:1.000000
+
+matshucita 2, sekai iron noise
+A: 18.148194.2 e: 17.433835 dB, avg: 15.573963 frsize:400 scaler:1.000000
+A: 7.718775.2 e: 13.720984 dB, avg: 15.732361 frsize:400 scaler:1.000000
+A: 8.429944.2 e: 14.103747 dB, avg: 14.647121 frsize:400 scaler:1.000000
+A: 8.586744.2 e: 14.183786 dB, avg: 14.860588 frsize:400 scaler:1.000000
+A: 10.493694.2 e: 15.054785 dB, avg: 14.265826 frsize:400 scaler:1.000000
+A: 6.240744.2 e: 12.797864 dB, avg: 14.035045 frsize:400 scaler:1.000000
+A: 8.112900.2 e: 13.937262 dB, avg: 13.993424 frsize:400 scaler:1.000000
+A: 91.444975.2 e: 24.457099 dB, avg: 16.561753 frsize:400 scaler:1.000000
+A: 9.257444.2 e: 14.510411 dB, avg: 16.425659 frsize:400 scaler:1.000000
+^CTerminate batch job (Y/N)?
+A: 382.607494.2 e: 30.673035 dB, avg: 7.668259 frsize:400 scaler:1.000000
+A: 7.482775.2 e: 13.586128 dB, avg: 11.064790 frsize:400 scaler:1.000000
+A: 5.882100.2 e: 12.540825 dB, avg: 14.199997 frsize:400 scaler:1.000000
+A: 6.225000.2 e: 12.786894 dB, avg: 17.396720 frsize:400 scaler:1.000000
+A: 31.129775.2 e: 19.777260 dB, avg: 14.672776 frsize:400 scaler:1.000000
+A: 7.116775.2 e: 13.368333 dB, avg: 14.618328 frsize:400 scaler:1.000000
+A: 7.663694.2 e: 13.689882 dB, avg: 14.905592 frsize:400 scaler:1.000000
+A: 31.396100.2 e: 19.814258 dB, avg: 16.662433 frsize:400 scaler:1.000000
+A: 22.088994.2 e: 18.287260 dB, avg: 16.289933 frsize:400 scaler:1.000000
+A: 7.789400.2 e: 13.760541 dB, avg: 16.387985 frsize:400 scaler:1.000000
+^CTerminate batch job (Y/N)?
+
+
+
+
+two fans OFF no voice
+A: 0.565000.2 e: 2.365985 dB, avg: 8.892510 frsize:400 scaler:0.700000
+A: 1.286775.2 e: 5.940527 dB, avg: 10.377642 frsize:400 scaler:0.700000
+A: 1.689244.2 e: 7.122424 dB, avg: 12.158248 frsize:400 scaler:0.700000
+A: 0.928744.2 e: 4.524460 dB, avg: 4.988349 frsize:400 scaler:0.700000
+A: 44.382100.2 e: 21.317579 dB, avg: 9.726247 frsize:400 scaler:0.700000
+A: 24.113775.2 e: 18.668153 dB, avg: 12.908154 frsize:400 scaler:0.700000
+A: 0.912975.2 e: 4.450090 dB, avg: 12.240070 frsize:400 scaler:0.700000
+A: 1.867900.2 e: 7.559037 dB, avg: 12.998714 frsize:400 scaler:0.700000
+A: 1.628900.2 e: 6.964445 dB, avg: 9.410431 frsize:400 scaler:0.700000
+A: 1.853944.2 e: 7.526466 dB, avg: 6.625009 frsize:400 scaler:0.700000
+A: 6.066400.2 e: 12.674811 dB, avg: 8.681190 frsize:400 scaler:0.700000
+A: 26.890194.2 e: 19.141440 dB, avg: 11.576791 frsize:400 scaler:0.700000
+ 1.941100.2 e: 7.725980 dB, avg: 7.075233 frsize:400 scaler:1.000000
+A: 2.597975.2 e: 8.991850 dB, avg: 8.444266 frsize:400 scaler:1.000000
+A: 1.531600.2 e: 6.696954 dB, avg: 8.015348 frsize:400 scaler:1.000000
+A: 4.506094.2 e: 11.383503 dB, avg: 8.699572 frsize:400 scaler:1.000000
+A: 0.426094.2 e: 1.140552 dB, avg: 7.053215 frsize:400 scaler:1.000000
+A: 4.475994.2 e: 11.354395 dB, avg: 7.643851 frsize:400 scaler:1.000000
+A: 1.400194.2 e: 6.307382 dB, avg: 7.546458 frsize:400 scaler:1.000000
+A: 3.793775.2 e: 10.636216 dB, avg: 7.359636 frsize:400 scaler:1.000000
+A: 1.339375.2 e: 6.114523 dB, avg: 8.603129 frsize:400 scaler:1.000000
+A: 1.349975.2 e: 6.148758 dB, avg: 7.301720 frsize:400 scaler:1.000000
+A: 1.533194.2 e: 6.701471 dB, avg: 7.400242 frsize:400 scaler:1.000000
+A: 2.853594.2 e: 9.399422 dB, avg: 7.091043 frsize:400 scaler:1.000000
+A: 0.184975.2 e: -2.483369 dB, avg: 4.941570 frsize:400 scaler:1.000000
+A: 0.727994.2 e: 3.466777 dB, avg: 4.271075 frsize:400 scaler:1.000000

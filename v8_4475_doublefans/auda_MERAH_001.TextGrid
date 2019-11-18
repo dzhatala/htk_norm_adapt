@@ -1,0 +1,110 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.1525396825396825 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 5.1525396825396825 
+        intervals: size = 24 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0068491511765854 
+            text = "" 
+        intervals [2]:
+            xmin = 1.0068491511765854 
+            xmax = 1.0787195239897283 
+            text = "m" 
+        intervals [3]:
+            xmin = 1.0787195239897283 
+            xmax = 1.1728944952621225 
+            text = "e" 
+        intervals [4]:
+            xmin = 1.1728944952621225 
+            xmax = 1.2150254034629304 
+            text = "r" 
+        intervals [5]:
+            xmin = 1.2150254034629304 
+            xmax = 1.281939198840684 
+            text = "ah" 
+        intervals [6]:
+            xmin = 1.281939198840684 
+            xmax = 1.324070107041492 
+            text = "h" 
+        intervals [7]:
+            xmin = 1.324070107041492 
+            xmax = 1.3637227265246055 
+            text = "sil" 
+        intervals [8]:
+            xmin = 1.3637227265246055 
+            xmax = 1.4405496767731374 
+            text = "m" 
+        intervals [9]:
+            xmin = 1.4405496767731374 
+            xmax = 1.5248114931747534 
+            text = "e" 
+        intervals [10]:
+            xmin = 1.5248114931747534 
+            xmax = 1.5718989788109503 
+            text = "r" 
+        intervals [11]:
+            xmin = 1.5718989788109503 
+            xmax = 1.6710305275187338 
+            text = "a" 
+        intervals [12]:
+            xmin = 1.6710305275187338 
+            xmax = 1.7478574777672657 
+            text = "h" 
+        intervals [13]:
+            xmin = 1.7478574777672657 
+            xmax = 2.2027712374865427 
+            text = "sil" 
+        intervals [14]:
+            xmin = 2.2027712374865427 
+            xmax = 2.2969462087589365 
+            text = "m" 
+        intervals [15]:
+            xmin = 2.2969462087589365 
+            xmax = 2.462991552844474 
+            text = "e" 
+        intervals [16]:
+            xmin = 2.462991552844474 
+            xmax = 2.507600749762976 
+            text = "r" 
+        intervals [17]:
+            xmin = 2.507600749762976 
+            xmax = 2.658776361542346 
+            text = "ah" 
+        intervals [18]:
+            xmin = 2.658776361542346 
+            xmax = 2.7306467343554885 
+            text = "h" 
+        intervals [19]:
+            xmin = 2.7306467343554885 
+            xmax = 3.274200404165264 
+            text = "sil" 
+        intervals [20]:
+            xmin = 3.274200404165264 
+            xmax = 3.3658970867199636 
+            text = "m" 
+        intervals [21]:
+            xmin = 3.3658970867199636 
+            xmax = 3.5145944097816386 
+            text = "e" 
+        intervals [22]:
+            xmin = 3.5145944097816386 
+            xmax = 3.5666384728532248 
+            text = "r" 
+        intervals [23]:
+            xmin = 3.5666384728532248 
+            xmax = 3.6409871343840625 
+            text = "ah" 
+        intervals [24]:
+            xmin = 3.6409871343840625 
+            xmax = 5.1525396825396825 
+            text = "lsil" 

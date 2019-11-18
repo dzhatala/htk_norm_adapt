@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.095 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 6.095 
+        intervals: size = 30 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1448935648060548 
+            text = "" 
+        intervals [2]:
+            xmin = 1.1448935648060548 
+            xmax = 1.3639779649952697 
+            text = "sil" 
+        intervals [3]:
+            xmin = 1.3639779649952697 
+            xmax = 1.4138151135288555 
+            text = "h" 
+        intervals [4]:
+            xmin = 1.4138151135288555 
+            xmax = 1.5340105894039737 
+            text = "i" 
+        intervals [5]:
+            xmin = 1.5340105894039737 
+            xmax = 1.6366164834437087 
+            text = "j" 
+        intervals [6]:
+            xmin = 1.6366164834437087 
+            xmax = 1.8535546594134344 
+            text = "au" 
+        intervals [7]:
+            xmin = 1.8535546594134344 
+            xmax = 2.0822192232734156 
+            text = "o" 
+        intervals [8]:
+            xmin = 2.0822192232734156 
+            xmax = 2.2112094900662256 
+            text = "n" 
+        intervals [9]:
+            xmin = 2.2112094900662256 
+            xmax = 2.284963323495899 
+            text = "sil" 
+        intervals [10]:
+            xmin = 2.284963323495899 
+            xmax = 2.3465268599197397 
+            text = "h" 
+        intervals [11]:
+            xmin = 2.3465268599197397 
+            xmax = 2.4344747690966555 
+            text = "i" 
+        intervals [12]:
+            xmin = 2.4344747690966555 
+            xmax = 2.5224226782735717 
+            text = "j" 
+        intervals [13]:
+            xmin = 2.5224226782735717 
+            xmax = 2.686592108737148 
+            text = "au" 
+        intervals [14]:
+            xmin = 2.686592108737148 
+            xmax = 2.841966748283032 
+            text = "o" 
+        intervals [15]:
+            xmin = 2.841966748283032 
+            xmax = 2.950435836267895 
+            text = "f" 
+        intervals [16]:
+            xmin = 2.950435836267895 
+            xmax = 3.257506351521646 
+            text = "sil" 
+        intervals [17]:
+            xmin = 3.257506351521646 
+            xmax = 3.3307962758357426 
+            text = "h" 
+        intervals [18]:
+            xmin = 3.3307962758357426 
+            xmax = 3.4158125880400942 
+            text = "i" 
+        intervals [19]:
+            xmin = 3.4158125880400942 
+            xmax = 3.524281676024957 
+            text = "j" 
+        intervals [20]:
+            xmin = 3.524281676024957 
+            xmax = 3.714835479241608 
+            text = "au" 
+        intervals [21]:
+            xmin = 3.714835479241608 
+            xmax = 3.8819365066777483 
+            text = "o" 
+        intervals [22]:
+            xmin = 3.8819365066777483 
+            xmax = 4.00506357952543 
+            text = "n" 
+        intervals [23]:
+            xmin = 4.00506357952543 
+            xmax = 4.321349787535242 
+            text = "sil" 
+        intervals [24]:
+            xmin = 4.321349787535242 
+            xmax = 4.385844920931647 
+            text = "h" 
+        intervals [25]:
+            xmin = 4.385844920931647 
+            xmax = 4.491382411943946 
+            text = "i" 
+        intervals [26]:
+            xmin = 4.491382411943946 
+            xmax = 4.567603933230607 
+            text = "j" 
+        intervals [27]:
+            xmin = 4.567603933230607 
+            xmax = 4.7259101697490555 
+            text = "au" 
+        intervals [28]:
+            xmin = 4.7259101697490555 
+            xmax = 4.887148003240068 
+            text = "o" 
+        intervals [29]:
+            xmin = 4.887148003240068 
+            xmax = 4.934053554801089 
+            text = "f" 
+        intervals [30]:
+            xmin = 4.934053554801089 
+            xmax = 6.095 
+            text = "sil" 

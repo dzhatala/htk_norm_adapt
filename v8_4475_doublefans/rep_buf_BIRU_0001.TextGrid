@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.785 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 4.785 
+        intervals: size = 28 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4632196887417218 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4632196887417218 
+            xmax = 0.5345664380321664 
+            text = "b" 
+        intervals [3]:
+            xmin = 0.5345664380321664 
+            xmax = 0.6312297757805109 
+            text = "i" 
+        intervals [4]:
+            xmin = 0.6312297757805109 
+            xmax = 0.6864659687795648 
+            text = "r" 
+        intervals [5]:
+            xmin = 0.6864659687795648 
+            xmax = 0.7486066859035004 
+            text = "u" 
+        intervals [6]:
+            xmin = 0.7486066859035004 
+            xmax = 0.819953435193945 
+            text = "m" 
+        intervals [7]:
+            xmin = 0.819953435193945 
+            xmax = 0.9281243131504257 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.9281243131504257 
+            xmax = 1.0662147956480605 
+            text = "t" 
+        intervals [9]:
+            xmin = 1.0662147956480605 
+            xmax = 1.1674811494796593 
+            text = "i" 
+        intervals [10]:
+            xmin = 1.1674811494796593 
+            xmax = 1.5150088637653736 
+            text = "sil" 
+        intervals [11]:
+            xmin = 1.5150088637653736 
+            xmax = 1.602466169347209 
+            text = "b" 
+        intervals [12]:
+            xmin = 1.602466169347209 
+            xmax = 1.7221445875118258 
+            text = "i" 
+        intervals [13]:
+            xmin = 1.7221445875118258 
+            xmax = 1.7589687161778618 
+            text = "r" 
+        intervals [14]:
+            xmin = 1.7589687161778618 
+            xmax = 1.8671395941343425 
+            text = "u" 
+        intervals [15]:
+            xmin = 1.8671395941343425 
+            xmax = 1.9338833273415326 
+            text = "m" 
+        intervals [16]:
+            xmin = 1.9338833273415326 
+            xmax = 2.058164761589404 
+            text = "a" 
+        intervals [17]:
+            xmin = 2.058164761589404 
+            xmax = 2.2031597682119206 
+            text = "t" 
+        intervals [18]:
+            xmin = 2.2031597682119206 
+            xmax = 2.338948742667928 
+            text = "i" 
+        intervals [19]:
+            xmin = 2.338948742667928 
+            xmax = 2.7661745453842266 
+            text = "sil" 
+        intervals [20]:
+            xmin = 2.7661745453842266 
+            xmax = 2.899662011798607 
+            text = "b" 
+        intervals [21]:
+            xmin = 2.899662011798607 
+            xmax = 3.0837826551287866 
+            text = "i" 
+        intervals [22]:
+            xmin = 3.0837826551287866 
+            xmax = 3.125209799878077 
+            text = "r" 
+        intervals [23]:
+            xmin = 3.125209799878077 
+            xmax = 3.254094250209203 
+            text = "u" 
+        intervals [24]:
+            xmin = 3.254094250209203 
+            xmax = 3.4267073533312464 
+            text = "m" 
+        intervals [25]:
+            xmin = 3.4267073533312464 
+            xmax = 3.5463857714958635 
+            text = "a" 
+        intervals [26]:
+            xmin = 3.5463857714958635 
+            xmax = 3.7120943504930253 
+            text = "t" 
+        intervals [27]:
+            xmin = 3.7120943504930253 
+            xmax = 3.8363757847408966 
+            text = "i" 
+        intervals [28]:
+            xmin = 3.8363757847408966 
+            xmax = 4.785 
+            text = "sil" 
