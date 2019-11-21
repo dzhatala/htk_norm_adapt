@@ -2,9 +2,10 @@ source env_cygwin.sh
 
 #HRest Outputs
 dir=hmm1
-phonems=monophones1
+phonems=phonems.lst
 dict=phone1.dic
-ftest=test.lst
+ftest=zoel_tb.lst
+outdir=results
  
 cp /dev/null $dict ;sync
 
@@ -17,11 +18,9 @@ awk '{
 }' $phonems > $dict
 
 sync
-#echo "test" ; read
 
 $HTKTOOLS_DIR/HBuild $dict phone.net
-#outdir="../../wavs/results"
-mkdir -p $outdir		# outdir in env.sh
+mkdir -p $outdir		#
 cmd="$HTKTOOLS_DIR/HVite  -i recph.mlf -T 1 -w phone.net -C configtrain.txt  -H $dir/hmmdefs \
  -o S -S $ftest $dict $phonems"
 echo $cmd ; eval $cmd
@@ -30,4 +29,3 @@ cmd="$HTKTOOLS_DIR/HVite -l $outdir  -y recph -T 1 -w phone.net -C configtrain.t
  -o S -S $ftest $dict $phonems"
 echo $cmd ; eval $cmd
 
-date

@@ -5,15 +5,6 @@ rm -f hmm0/*
 mkdir -p hmm0
 init_name=initial_0_D_A
 cp hinitoutput/$init_name hmm0/
-echo "ubuntu listing phonems from $labdir "
-awk '{
-	print $3
-	
-}'  $labdir/*.lab | sort | uniq > phonems.lst   #change lab file here, to include all use $labdir/*.lab
-sort phonems.lst | uniq | sort | uniq > monophones1
-#lab_files=$labdir/*.lab ; 
-#echo $lab_files ; read
-echo "ENTER " ; read
 cp /dev/null hmm0/hmmdefs
 
 for x in `cat phonems.lst`
@@ -24,7 +15,7 @@ do
 done
 
 #head -3 hmm0/proto > hmm0/macros ; head -3 hmm0/vFloors >> hmm0/macros ; read
-echo "echo are phonems in phonems.lst correct ?" ; read
+echo "echo are phonems in phonems.lst correct ? [ENTER! CONT ] CTRL+C EXIT!" ; read
 
 prune_param=" -t 50.0 150.0 1000.0"
 mkdir -p hmm1
@@ -32,7 +23,7 @@ echo creating hmms in hmm1 ...
 counter=1
 for x in `cat phonems.lst`
 do
-	cmd="$HTKTOOLS_DIR/HRest -C configtrain.txt -S zoel_tb.lst -T 1 -L $labdir    \
+	cmd="$HTKTOOLS_DIR/HRest -C configtrain.txt -i 50 -S zoel_tb.lst -T 1 -L $labdir    \
 	   -M hmm1 -l $x hmm0/$x"
 	#cmd="$HTKTOOLS_DIR/HRest "
 	echo $cmd ; eval $cmd
@@ -50,6 +41,6 @@ do
 	fi
 	counter=`expr $counter + 1`; echo "$counter $x"
 
-	echo [ENTER! CONT ]   CTRL+C EXIT!
+	echo [ENTER! CONT ]  CTRL+C EXIT!
 	read 
 done
