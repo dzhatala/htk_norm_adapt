@@ -19,3 +19,8 @@ $ ./baum_viterbi_init_cyg.sh
 $ ./makehmm_cyg.sh
 $ ./monotest_cyg.sh
 $ ./monoperf_cyg.sh
+
+
+My paper is:
+Speech recognition for Indonesian language and its application to home automation
+IEEE 4th International Conference On Information Technology, Information System and Electrical Engineering, Yogyakarta, Indonesia 20th November 2019
