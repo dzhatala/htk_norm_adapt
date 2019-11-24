@@ -7,5 +7,9 @@ if [ "remove"  == "remove" ]; then
 else 
 	echo "WARNING:  $0 NOT cleaning old mfcs in $datadir "
 fi
-cmd="$HTKTOOLS_DIR/HCopy -T 1 -C configcopy_htk_mfcc.txt -S htk2_mfcc_lst.w32"
+
+fconfig=configcopy_htk_mfcc.txt
+#fconfig=configcopy_wav_mfcc.txt
+
+cmd="$HTKTOOLS_DIR/HCopy -T 1 -C $fconfig -S htk2_mfcc_lst.w32"
 echo $cmd ; eval $cmd
