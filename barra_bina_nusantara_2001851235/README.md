@@ -9,7 +9,7 @@ For your own data please CHANGE/EDIT these file :
 
 3. htk2_mfcc_lst.w32
 
-4. rep_buf_BIRU_0001.lab
+4. rep_buf_BIRU_0001.lab (use SFS to label *.wav, then export->annotation to HTK)
 
 
 
