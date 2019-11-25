@@ -1,3 +1,4 @@
+This example the power of HTK even super noisy sound ...
 For your own data please CHANGE/EDIT these file :
 0. zoel_tb.lst
 1. phonems.lst
