@@ -319,6 +319,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\htk\HTKTools\HERest_MAP_trace.c"
+				>
+			</File>
+			<File
 				RelativePath="..\htk\HTKLib\HExactMPE.c"
 				>
 			</File>
@@ -384,10 +388,6 @@
 			</File>
 			<File
 				RelativePath="..\htk\HTKLib\HUtil.c"
-				>
-			</File>
-			<File
-				RelativePath="..\htk\HTKTools\HVite_semitied_input.c"
 				>
 			</File>
 			<File
