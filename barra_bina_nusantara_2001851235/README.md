@@ -5,6 +5,7 @@ performa Testing only, just download and extract until you see all directory str
 in your computer same with this web
 now enter dir. /htk_normalization_adaptation/barra_bina_nusantara_2001851235
 and perform steps. u need working cygwin (http://www.cygwin.com)
+
 0. edit env_cygwin.sh
 1. $ ./baum_viterbi_init_cyg.sh
 2. $ ./makehmm_cyg.sh
